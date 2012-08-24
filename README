@@ -25,6 +25,20 @@ Build and install by running:
     $ sudo python setup.py install
 
 ==========================
+Developer Install
+==========================
+Installing Deluge with develop mode creates binaries that link back to the source code so changes will be reflected immediately thus no need to repeatedly install.
+
+    $ python setup.py develop
+
+If you wish to use a specific development directory, the following will create a Deluge install in ~/delugeDev:
+
+export PYTHONPATH=${HOME}/delugeDev
+python setup.py develop --install-dir ~/delugeDev
+
+Refer to http://dev.deluge-torrent.org/wiki/Installing/Source for more details on alternative development options.
+
+==========================
 Contact/Support:
 ==========================
 
