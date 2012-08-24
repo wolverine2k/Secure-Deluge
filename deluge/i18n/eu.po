@@ -1,0 +1,3879 @@
+# Basque translation for deluge
+# Copyright (c) 2012 Rosetta Contributors and Canonical Ltd 2012
+# This file is distributed under the same license as the deluge package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: deluge\n"
+"Report-Msgid-Bugs-To: FULL NAME <EMAIL@ADDRESS>\n"
+"POT-Creation-Date: 2012-03-11 19:23+0000\n"
+"PO-Revision-Date: 2012-03-16 13:58+0000\n"
+"Last-Translator: Azpidatziak <Unknown>\n"
+"Language-Team: Basque <eu@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Launchpad-Export-Date: 2012-04-09 12:21+0000\n"
+"X-Generator: Launchpad (build 15060)\n"
+
+#: deluge/common.py:274
+msgid "KiB"
+msgstr "KiB"
+
+#: deluge/common.py:277
+msgid "MiB"
+msgstr "MiB"
+
+#: deluge/common.py:279
+msgid "GiB"
+msgstr "GiB"
+
+#: deluge/common.py:298
+msgid "K"
+msgstr "K"
+
+#: deluge/common.py:301
+msgid "M"
+msgstr "M"
+
+#: deluge/common.py:303
+msgid "G"
+msgstr "G"
+
+#: deluge/common.py:339
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:630
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:644
+#: deluge/plugins/label/label/data/label_options.glade:132
+#: deluge/plugins/label/label/data/label_options.glade:195
+#: deluge/ui/console/statusbars.py:96 deluge/ui/console/statusbars.py:101
+#: deluge/ui/gtkui/systemtray.py:251 deluge/ui/gtkui/systemtray.py:255
+#: deluge/ui/gtkui/systemtray.py:271 deluge/ui/gtkui/systemtray.py:277
+#: deluge/ui/gtkui/systemtray.py:422 deluge/ui/gtkui/systemtray.py:427
+#: deluge/ui/gtkui/menubar.py:436 deluge/ui/gtkui/menubar.py:437
+#: deluge/ui/gtkui/status_tab.py:62 deluge/ui/gtkui/statusbar.py:363
+#: deluge/ui/gtkui/statusbar.py:373 deluge/ui/gtkui/statusbar.py:378
+#: deluge/ui/gtkui/statusbar.py:390 deluge/ui/gtkui/statusbar.py:401
+#: deluge/ui/gtkui/statusbar.py:418 deluge/ui/gtkui/statusbar.py:429
+#: deluge/ui/gtkui/glade/main_window.glade:1831
+#: deluge/ui/gtkui/glade/main_window.glade:1843
+msgid "KiB/s"
+msgstr "KiB/s"
+
+#: deluge/common.py:342
+msgid "MiB/s"
+msgstr "MiB/s"
+
+#: deluge/common.py:344
+msgid "GiB/s"
+msgstr "GiB/s"
+
+#: deluge/core/filtermanager.py:94 deluge/core/torrentmanager.py:973
+#: deluge/ui/gtkui/torrentview.py:90 deluge/ui/gtkui/filtertreeview.py:77
+msgid "Error"
+msgstr "Akatsa"
+
+#: deluge/core/torrentmanager.py:939
+msgid "Announce OK"
+msgstr "Iragarpena Ongi"
+
+#: deluge/core/torrentmanager.py:955
+msgid "Announce Sent"
+msgstr "Iragarpen Bidalketa"
+
+#: deluge/core/torrentmanager.py:963
+msgid "Warning"
+msgstr "Kontuz"
+
+#: deluge/plugins/notifications/notifications/core.py:142
+#: deluge/plugins/notifications/notifications/core.py:175
+#, python-format
+msgid "There was an error sending the notification email: %s"
+msgstr "Akats bat egon da jakinarazpen post@ bildaltzerakoan: %s"
+
+#: deluge/plugins/notifications/notifications/core.py:161
+#, python-format
+msgid "The server didn't reply properly to the helo greeting: %s"
+msgstr "Zerbitzariak ez du egoki erantzun helo agurrari: %s"
+
+#: deluge/plugins/notifications/notifications/core.py:166
+#, python-format
+msgid "The server didn't accept the username/password combination: %s"
+msgstr "Zerbitzariak ez du onartzen erabiltzaile-izen/sar-hitz bikotea: %s"
+
+#: deluge/plugins/notifications/notifications/core.py:190
+msgid "Notification email sent."
+msgstr "Jakinarazoeb post@ bidalketa."
+
+#: deluge/plugins/notifications/notifications/core.py:198
+#, python-format
+msgid "Finished Torrent \"%(name)s\""
+msgstr "Amaitutako Torrenta \"%(name)s\""
+
+#: deluge/plugins/notifications/notifications/core.py:200
+#, python-format
+msgid ""
+"This email is to inform you that Deluge has finished downloading "
+"\"%(name)s\", which includes %(num_files)i files.\n"
+"To stop receiving these alerts, simply turn off email notification in "
+"Deluge's preferences.\n"
+"\n"
+"Thank you,\n"
+"Deluge."
+msgstr ""
+"Post@ hau da zuri jakinarazteko Delugek amaitu duela jeisketa:  %(name)s , "
+"barne duenak %(num_files)i agiriak.\n"
+"Jakinarazpen hauek jasotzeari uzteko, besterik gabe itzali post@ "
+"jakinarazpena Delugeren hobespenetan.\n"
+"\n"
+"Mila esker,\n"
+"Deluge"
+
+#: deluge/plugins/notifications/notifications/gtkui.py:178
+msgid "Notification Blink shown"
+msgstr "Jakinarazpen nirnirra agerian"
+
+#: deluge/plugins/notifications/notifications/gtkui.py:183
+msgid "Popup notification is not enabled."
+msgstr "Oharleiho jakinarazpena ez dago gaituta."
+
+#: deluge/plugins/notifications/notifications/gtkui.py:185
+msgid "pynotify is not installed"
+msgstr "pyjakinarazpena ez dago ezarrita"
+
+#: deluge/plugins/notifications/notifications/gtkui.py:193
+msgid "pynotify failed to show notification"
+msgstr "pyjakinarazpen hutsegitea jakinarazpena erakusterakoan"
+
+#: deluge/plugins/notifications/notifications/gtkui.py:196
+msgid "Notification popup shown"
+msgstr "Jakinarazpen oharleihoa agerian"
+
+#: deluge/plugins/notifications/notifications/gtkui.py:200
+msgid "Sound notification not enabled"
+msgstr "Soinu jakinarazpena ez dago gaituta"
+
+#: deluge/plugins/notifications/notifications/gtkui.py:202
+msgid "pygame is not installed"
+msgstr "pyjokoak ez dago ezarrita"
+
+#: deluge/plugins/notifications/notifications/gtkui.py:214
+#, python-format
+msgid "Sound notification failed %s"
+msgstr "Soinu jakinarazpen hutsegitea %s"
+
+#: deluge/plugins/notifications/notifications/gtkui.py:218
+msgid "Sound notification Success"
+msgstr "Soinu jakinarazpen Gertaera"
+
+#: deluge/plugins/notifications/notifications/gtkui.py:241
+msgid "Finished Torrent"
+msgstr "Torrenta Amaituta"
+
+#: deluge/plugins/notifications/notifications/gtkui.py:242
+#, python-format
+msgid ""
+"The torrent \"%(name)s\" including %(num_files)i has finished downloading."
+msgstr "\"%(name)s\" torrentak amaitu du jeisketa, %(num_files)i barneratuz."
+
+#: deluge/plugins/notifications/notifications/gtkui.py:646
+msgid "Choose Sound File"
+msgstr "Hautatu soinu-fitxategia"
+
+#: deluge/plugins/notifications/notifications/data/config.glade:26
+msgid "<b><i><big>Notifications</big></i></b>"
+msgstr "<b><i><big>Jakinarazpenak</big></i></b>"
+
+#: deluge/plugins/notifications/notifications/data/config.glade:76
+msgid "Tray icon blinks enabled"
+msgstr "Erretilu ikono nirnirra gaituta"
+
+#: deluge/plugins/notifications/notifications/data/config.glade:88
+msgid "Popups enabled"
+msgstr "Oharleihoak gaituta"
+
+#: deluge/plugins/notifications/notifications/data/config.glade:103
+msgid "Sound enabled"
+msgstr "Soinua gaituta"
+
+#: deluge/plugins/notifications/notifications/data/config.glade:139
+msgid "<b>UI Notifications</b>"
+msgstr "<b>EI Jakinarazpenak</b>"
+
+#: deluge/plugins/notifications/notifications/data/config.glade:170
+#: deluge/ui/gtkui/glade/connection_manager.glade:28
+msgid "Hostname:"
+msgstr "Hostalari-izena:"
+
+#: deluge/plugins/notifications/notifications/data/config.glade:194
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3340
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3527
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3714
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3903
+#: deluge/ui/gtkui/glade/connection_manager.glade:57
+msgid "Port:"
+msgstr "Ataka:"
+
+#: deluge/plugins/notifications/notifications/data/config.glade:226
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3422
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3609
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3796
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3986
+#: deluge/ui/gtkui/glade/connection_manager.glade:146
+msgid "Username:"
+msgstr "Erabiltzaile izana:"
+
+#: deluge/plugins/notifications/notifications/data/config.glade:250
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2120
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3286
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3473
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3660
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3847
+#: deluge/ui/gtkui/glade/connection_manager.glade:135
+msgid "Password:"
+msgstr "Sar-hitza:"
+
+#: deluge/plugins/notifications/notifications/data/config.glade:354
+msgid "<b>Recipients</b>"
+msgstr "<b>Ontziak</b>"
+
+#: deluge/plugins/notifications/notifications/data/config.glade:377
+msgid "Server requires TLS/SSL"
+msgstr "Zerbitzariak TLS/SSL behar du"
+
+#: deluge/plugins/notifications/notifications/data/config.glade:392
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:633
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:782
+msgid "From:"
+msgstr "Hemendik:"
+
+#: deluge/plugins/notifications/notifications/data/config.glade:415
+#: deluge/ui/gtkui/preferences.py:92
+msgid "Enabled"
+msgstr "Gaituta"
+
+#: deluge/plugins/notifications/notifications/data/config.glade:437
+msgid "<b>Email Notifications</b>"
+msgstr "<b>Post@ Jakinarazpenak</b>"
+
+#: deluge/plugins/notifications/notifications/data/config.glade:454
+msgid "Settings"
+msgstr "Ezarpenak"
+
+#: deluge/plugins/notifications/notifications/data/config.glade:488
+msgid ""
+"This configuration does not mean that you'll actually receive notifications "
+"for all these events."
+msgstr ""
+"Itxurapen honek ez du esanahi gertakari guzti hauen jakinarazpenak jasoko "
+"dituzunik."
+
+#: deluge/plugins/notifications/notifications/data/config.glade:506
+msgid "Subscriptions"
+msgstr "Harpidetzak"
+
+#: deluge/plugins/notifications/notifications/data/config.glade:586
+msgid "Sound Customization"
+msgstr "Soinu Norbereraratzea"
+
+#: deluge/plugins/extractor/extractor/data/extractor_prefs.glade:27
+msgid "Extract to:"
+msgstr "Atera hona:"
+
+#: deluge/plugins/extractor/extractor/data/extractor_prefs.glade:41
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:126
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:300
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:377
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:161
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:228
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:289
+#: deluge/ui/gtkui/glade/main_window.glade:2026
+#: deluge/ui/gtkui/glade/add_torrent_dialog.glade:369
+msgid "Select A Folder"
+msgstr "Hautatu karpeta"
+
+#: deluge/plugins/extractor/extractor/data/extractor_prefs.glade:69
+msgid "Create torrent name sub-folder"
+msgstr "Sortu torrentaren izen daukan azpikarpeta"
+
+#: deluge/plugins/extractor/extractor/data/extractor_prefs.glade:73
+msgid ""
+"This option will create a sub-folder using the torrent's name within the "
+"selected extract folder and put the extracted files there."
+msgstr ""
+"Aukera honek azpi-agiritegi bat sortuko du torrentaren izena erabiliz "
+"hautatutako ateratze agiritegi gabe eta bertan jarriko ditu ateratako "
+"agiriak."
+
+#: deluge/plugins/extractor/extractor/data/extractor_prefs.glade:87
+#: deluge/plugins/blocklist/blocklist/data/blocklist_pref.glade:52
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2831
+#: deluge/ui/gtkui/glade/main_window.glade:2177
+#: deluge/ui/gtkui/glade/add_torrent_dialog.glade:700
+msgid "<b>General</b>"
+msgstr "<b>Orokorra</b>"
+
+#: deluge/plugins/execute/execute/gtkui.py:51
+msgid "Torrent Complete"
+msgstr "Torrent Osatua"
+
+#: deluge/plugins/execute/execute/gtkui.py:52
+msgid "Torrent Added"
+msgstr "Torrenta Gehituta"
+
+#: deluge/plugins/execute/execute/gtkui.py:77
+#: deluge/plugins/execute/execute/gtkui.py:88
+msgid "Execute"
+msgstr "Exekutatu"
+
+#: deluge/plugins/execute/execute/data/execute_prefs.glade:28
+msgid "Event"
+msgstr "Gertaera"
+
+#: deluge/plugins/execute/execute/data/execute_prefs.glade:40
+msgid "Command"
+msgstr "Agindua"
+
+#: deluge/plugins/execute/execute/data/execute_prefs.glade:111
+msgid "<b>Add Command</b>"
+msgstr "<b>Gehitu Agindua</b>"
+
+#: deluge/plugins/execute/execute/data/execute_prefs.glade:149
+msgid "<b>Commands</b>"
+msgstr "<b>Aginduak</b>"
+
+#: deluge/plugins/blocklist/blocklist/webui.py:49
+msgid "Emule IP list (GZip)"
+msgstr "Emule IP zerrenda (GZip)"
+
+#: deluge/plugins/blocklist/blocklist/webui.py:50
+msgid "SafePeer Text (Zipped)"
+msgstr "SafePeer Idazkia (Zipatuta)"
+
+#: deluge/plugins/blocklist/blocklist/webui.py:51
+msgid "PeerGuardian Text (Uncompressed)"
+msgstr "PeerGuardian Idazkia (Konprimitugabea)"
+
+#: deluge/plugins/blocklist/blocklist/webui.py:52
+msgid "PeerGuardian P2B (GZip)"
+msgstr "PeerGuardian P2B (GZip)"
+
+#: deluge/plugins/blocklist/blocklist/peerguardian.py:31
+msgid "Invalid leader"
+msgstr "Baliogabeko burua"
+
+#: deluge/plugins/blocklist/blocklist/peerguardian.py:35
+msgid "Invalid magic code"
+msgstr "Kode magiko baliogabea"
+
+#: deluge/plugins/blocklist/blocklist/peerguardian.py:40
+msgid "Invalid version"
+msgstr "Bertsio baliogabea"
+
+#: deluge/plugins/blocklist/blocklist/gtkui.py:67
+#: deluge/plugins/blocklist/blocklist/gtkui.py:155
+#: deluge/plugins/blocklist/blocklist/gtkui.py:186
+msgid "Blocklist"
+msgstr "Bloke-zerrenda"
+
+#: deluge/plugins/blocklist/blocklist/data/blocklist_pref.glade:26
+#: deluge/plugins/blocklist/blocklist/data/blocklist_pref.glade:381
+#: deluge/ui/gtkui/glade/add_torrent_dialog.glade:1011
+msgid "URL:"
+msgstr "URL-a:"
+
+#: deluge/plugins/blocklist/blocklist/data/blocklist_pref.glade:89
+msgid "Days"
+msgstr "Egun"
+
+#: deluge/plugins/blocklist/blocklist/data/blocklist_pref.glade:115
+msgid "Check for new list every:"
+msgstr "Egiaztatu zerrenda berriak aldika:"
+
+#: deluge/plugins/blocklist/blocklist/data/blocklist_pref.glade:131
+msgid "Import blocklist on startup"
+msgstr "Inportatu bloke-zerrenda hasterakoan"
+
+#: deluge/plugins/blocklist/blocklist/data/blocklist_pref.glade:151
+#: deluge/plugins/webui/webui/data/config.glade:92
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4163
+msgid "<b>Settings</b>"
+msgstr "<b>Ezarpenak</b>"
+
+#: deluge/plugins/blocklist/blocklist/data/blocklist_pref.glade:187
+msgid "Download the blocklist file if necessary and import the file."
+msgstr "Jeitsi bloke-zerrenda agiria beharrezkoa bada eta inportatu agiria."
+
+#: deluge/plugins/blocklist/blocklist/data/blocklist_pref.glade:207
+msgid "Check Download and Import"
+msgstr "Egiaztau Jeisketa eta Inportatu"
+
+#: deluge/plugins/blocklist/blocklist/data/blocklist_pref.glade:229
+msgid "Download a new blocklist file and import it."
+msgstr "Jeitsi bloke-zerrenda agiri berri bat eta inportatu."
+
+#: deluge/plugins/blocklist/blocklist/data/blocklist_pref.glade:249
+msgid "Force Download and Import"
+msgstr "Behartu Jeisketa eta Inportatu"
+
+#: deluge/plugins/blocklist/blocklist/data/blocklist_pref.glade:273
+msgid "Blocklist is up to date"
+msgstr "Bloke-zerrenda eguneratuta dago"
+
+#: deluge/plugins/blocklist/blocklist/data/blocklist_pref.glade:290
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:474
+msgid "<b>Options</b>"
+msgstr "<b>Aukerak</b>"
+
+#: deluge/plugins/blocklist/blocklist/data/blocklist_pref.glade:393
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3410
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3597
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3784
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3974
+msgid "Type:"
+msgstr "Mota:"
+
+#: deluge/plugins/blocklist/blocklist/data/blocklist_pref.glade:405
+msgid "Date:"
+msgstr "Eguna:"
+
+#: deluge/plugins/blocklist/blocklist/data/blocklist_pref.glade:417
+msgid "File Size:"
+msgstr "Fitxategi-tamaina:"
+
+#: deluge/plugins/blocklist/blocklist/data/blocklist_pref.glade:437
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4809
+msgid "<b>Info</b>"
+msgstr "<b>Argibideak</b>"
+
+#: deluge/plugins/webui/webui/gtkui.py:97
+msgid ""
+"The Deluge web interface is not installed, please install the\n"
+"interface and try again"
+msgstr ""
+"Delugeren web interfazea ez dago ezarrita, mesedez ezarri ezazu\n"
+"interfazea eta saiatu berriro"
+
+#: deluge/plugins/webui/webui/data/config.glade:25
+msgid "Enable web interface"
+msgstr "Gaitu web interfazea"
+
+#: deluge/plugins/webui/webui/data/config.glade:39
+msgid "Enable SSL"
+msgstr "Gaitu SSL"
+
+#: deluge/plugins/webui/webui/data/config.glade:58
+msgid "Listening port:"
+msgstr "Aditze ataka:"
+
+#: deluge/plugins/autoadd/autoadd/core.py:136
+msgid "Watch folder does not exist."
+msgstr "Ikuskapen agiritegia ez dago."
+
+#: deluge/plugins/autoadd/autoadd/core.py:139
+#: deluge/plugins/autoadd/autoadd/core.py:383
+msgid "Path does not exist."
+msgstr "Helburua ez dago."
+
+#: deluge/plugins/autoadd/autoadd/data/config.glade:39
+msgid "<b>Watch Folders:</b>"
+msgstr "<b>Ikuskapen Agiritegiak:</b>"
+
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:7
+msgid "AutoAdd Error"
+msgstr "Berez-Gehitze Akatsa"
+
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:78
+msgid "Watch Folder Properties"
+msgstr "Ikuskapen Agiritegi Ezaugarriak"
+
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:139
+msgid "Enable this watch folder"
+msgstr "Gaitu ikuskapen agiritegi hau"
+
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:160
+msgid "<b>Watch Folder</b>"
+msgstr "<b>Ikuskapen Agiritegia</b>"
+
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:190
+msgid "Delete .torrent after adding"
+msgstr "Ezabatu .torrenta gehitu ondoren"
+
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:206
+msgid "Append extension after adding:"
+msgstr "Gehitu luzapena gehitu ondoren:"
+
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:223
+msgid ".added"
+msgstr ".gehituta"
+
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:243
+msgid "<b>Torrent File Action</b>"
+msgstr "<b>Torrent Agiri Ekintza</b>"
+
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:269
+msgid "Set download location"
+msgstr "Ezarri jeisketa kokalekua"
+
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:319
+#: deluge/ui/gtkui/glade/add_torrent_dialog.glade:393
+msgid "<b>Download Location</b>"
+msgstr "<b>Jeisketaren Kokalekua</b>"
+
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:346
+msgid "Set move completed location"
+msgstr "Ezarri osatutakoak mugitzeko kokalekua"
+
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:411
+msgid "<b>Move Completed</b>"
+msgstr "<b>Mugitzea Osatuta</b>"
+
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:437
+msgid "Label: "
+msgstr "Etiketa: "
+
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:468
+msgid "<b>Label</b>"
+msgstr "<b>Etiketa</b>"
+
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:485
+msgid "Main"
+msgstr "Nagusia"
+
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:516
+#: deluge/ui/gtkui/glade/main_window.glade:1808
+msgid "Max Upload Speed:"
+msgstr "Geh Igoera Abiadura:"
+
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:533
+#: deluge/ui/gtkui/glade/main_window.glade:1795
+#: deluge/ui/gtkui/glade/add_torrent_dialog.glade:547
+msgid "Max Connections:"
+msgstr "Geh Elkarketa:"
+
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:550
+#: deluge/ui/gtkui/glade/main_window.glade:1858
+#: deluge/ui/gtkui/glade/add_torrent_dialog.glade:561
+msgid "Max Upload Slots:"
+msgstr "Geh Igoera Aho:"
+
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:657
+#: deluge/ui/gtkui/glade/main_window.glade:1821
+msgid "Max Download Speed:"
+msgstr "Geh Jeisketa Abiadura:"
+
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:683
+#: deluge/ui/gtkui/glade/main_window.glade:1897
+#: deluge/ui/gtkui/glade/add_torrent_dialog.glade:630
+msgid "<b>Bandwidth</b>"
+msgstr "<b>Bandazabalera</b>"
+
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:714
+#: deluge/plugins/label/label/data/label_options.glade:349
+#: deluge/ui/gtkui/glade/main_window.glade:1947
+msgid "Stop seed at ratio:"
+msgstr "Gelditu emaritza maila honetan:"
+
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:738
+#: deluge/plugins/label/label/data/label_options.glade:364
+#: deluge/ui/gtkui/glade/main_window.glade:1988
+msgid "Remove at ratio"
+msgstr "Kendu mailari"
+
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:754
+msgid "Auto Managed:"
+msgstr "Berez Kudeaketa:"
+
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:882
+msgid "Add Paused:"
+msgstr "Gehitu Pausatuta:"
+
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:928
+msgid "Queue to:"
+msgstr "Lerrokatu hona:"
+
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:946
+msgid "Top"
+msgstr "Goren"
+
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:959
+msgid "Bottom"
+msgstr "Beheren"
+
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:1009
+#: deluge/ui/gtkui/glade/main_window.glade:2065
+msgid "<b>Queue</b>"
+msgstr "<b>Lerrokatu</b>"
+
+#: deluge/plugins/autoadd/autoadd/data/autoadd_options.glade:1029
+#: deluge/ui/gtkui/glade/create_torrent_dialog.glade:626
+#: deluge/ui/gtkui/glade/connection_manager.glade:460
+msgid "Options"
+msgstr "Aukerak"
+
+#: deluge/plugins/scheduler/scheduler/gtkui.py:238
+msgid "Download Limit:"
+msgstr "Jeisketa Muga:"
+
+#: deluge/plugins/scheduler/scheduler/gtkui.py:247
+msgid "Upload Limit:"
+msgstr "Igoera Muga:"
+
+#: deluge/plugins/scheduler/scheduler/gtkui.py:256
+msgid "Active Torrents:"
+msgstr "Eragindako Torrentak:"
+
+#: deluge/plugins/scheduler/scheduler/gtkui.py:265
+msgid "Active Downloading:"
+msgstr "Eragindako Jeisketak:"
+
+#: deluge/plugins/scheduler/scheduler/gtkui.py:274
+msgid "Active Seeding:"
+msgstr "Eragindako Emaritzak:"
+
+#: deluge/plugins/scheduler/scheduler/gtkui.py:288
+msgid "<b>Slow Settings</b>"
+msgstr "<b>Astiro Ezarpenak</b>"
+
+#: deluge/plugins/label/label/core.py:191
+msgid "Invalid label, valid characters:[a-z0-9_-]"
+msgstr "Etiketa baliogabea, hizkikode baliogarriak:[a-z0-9_-]"
+
+#: deluge/plugins/label/label/core.py:192
+msgid "Empty Label"
+msgstr "Etiketa Hutsik"
+
+#: deluge/plugins/label/label/core.py:193
+msgid "Label already exists"
+msgstr "Etiketa jadanik badago"
+
+#: deluge/plugins/label/label/core.py:201
+#: deluge/plugins/label/label/core.py:281
+#: deluge/plugins/label/label/core.py:316
+msgid "Unknown Label"
+msgstr "Etiketa Ezezaguna"
+
+#: deluge/plugins/label/label/core.py:317
+msgid "Unknown Torrent"
+msgstr "Torrent Ezezaguna"
+
+#: deluge/plugins/label/label/data/label_options.glade:7
+#: deluge/plugins/label/label/gtkui/sidebar_menu.py:188
+msgid "Label Options"
+msgstr "Etiketa Aukerak"
+
+#: deluge/plugins/label/label/data/label_options.glade:36
+msgid "<b>Label Options</b>"
+msgstr "<b>Etiketa Aukerak</b>"
+
+#: deluge/plugins/label/label/data/label_options.glade:158
+msgid "Upload Slots:\t"
+msgstr "Igoera Ahoak:\t"
+
+#: deluge/plugins/label/label/data/label_options.glade:171
+msgid "Upload Speed:"
+msgstr "Igoera Abiadura:"
+
+#: deluge/plugins/label/label/data/label_options.glade:184
+msgid "Download Speed:"
+msgstr "Jeisketa Abiadura:"
+
+#: deluge/plugins/label/label/data/label_options.glade:226
+msgid "Connections:"
+msgstr "Elkarketak:"
+
+#: deluge/plugins/label/label/data/label_options.glade:270
+msgid "Apply per torrent max settings:"
+msgstr "Ezarri torrent bakoitzeko geh. ezarpenak:"
+
+#: deluge/plugins/label/label/data/label_options.glade:283
+msgid "Maximum"
+msgstr "Gehienezkoa"
+
+#: deluge/plugins/label/label/data/label_options.glade:336
+#: deluge/ui/gtkui/glade/main_window.glade:1926
+msgid "Auto Managed"
+msgstr "Berez Kudeaketa"
+
+#: deluge/plugins/label/label/data/label_options.glade:410
+msgid "Apply Queue settings:"
+msgstr "Ezarri Lerrokatze ezarpenak:"
+
+#: deluge/plugins/label/label/data/label_options.glade:426
+#: deluge/ui/gtkui/preferences.py:78
+msgid "Queue"
+msgstr "Lerrokatu"
+
+#: deluge/plugins/label/label/data/label_options.glade:453
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:204
+msgid "Move completed to:"
+msgstr "Mugitu osatutakoa hona:"
+
+#: deluge/plugins/label/label/data/label_options.glade:504
+msgid "Apply location settings:"
+msgstr "Ezarri kokaleku ezarpenak:"
+
+#: deluge/plugins/label/label/data/label_options.glade:520
+msgid "Location"
+msgstr "Kokalekua"
+
+#: deluge/plugins/label/label/data/label_options.glade:560
+msgid "<i>(1 line per tracker)</i>"
+msgstr "<i>(1 lerro aztarnariko)</i>"
+
+#: deluge/plugins/label/label/data/label_options.glade:576
+msgid "Automatically apply label:"
+msgstr "Berezgaitasunez ezarri etiketa:"
+
+#: deluge/plugins/label/label/data/label_options.glade:593
+#: deluge/ui/gtkui/filtertreeview.py:69
+#: deluge/ui/gtkui/glade/create_torrent_dialog.glade:464
+msgid "Trackers"
+msgstr "Aztarnariak"
+
+#: deluge/plugins/label/label/data/label_options.glade:646
+msgid "Add Label"
+msgstr "Gehitu Etiketa"
+
+#: deluge/plugins/label/label/data/label_options.glade:680
+msgid "<b>Add Label</b>"
+msgstr "<b>Gehitu Etiketa</b>"
+
+#: deluge/plugins/label/label/data/label_options.glade:711
+msgid "Name:"
+msgstr "Izena:"
+
+#: deluge/plugins/label/label/data/label_pref.glade:22
+msgid "<i>Use the sidebar to add,edit and remove labels. </i>\n"
+msgstr ""
+"<i>Erabili albobarra etiketak gehitzeko, editatzeko eta kentzeko. </i>\n"
+
+#: deluge/plugins/label/label/data/label_pref.glade:32
+msgid "<b>Labels</b>"
+msgstr "<b>Etiketak</b>"
+
+#: deluge/plugins/label/label/gtkui/__init__.py:77
+#: deluge/plugins/label/label/gtkui/__init__.py:111
+#: deluge/plugins/label/label/gtkui/submenu.py:51
+#: deluge/plugins/label/label/gtkui/label_config.py:59
+#: deluge/plugins/label/label/gtkui/label_config.py:66
+msgid "Label"
+msgstr "Etiketa"
+
+#: deluge/plugins/label/label/gtkui/sidebar_menu.py:66
+msgid "Label _Options"
+msgstr "Etiketa_Aukerak"
+
+#: deluge/plugins/label/label/gtkui/sidebar_menu.py:67
+msgid "_Remove Label"
+msgstr "_Ezabatu Etiketa"
+
+#: deluge/plugins/label/label/gtkui/sidebar_menu.py:68
+msgid "_Add Label"
+msgstr "_Gehitu Etiketa"
+
+#: deluge/plugins/label/label/gtkui/submenu.py:46
+#: deluge/ui/gtkui/filtertreeview.py:80
+msgid "No Label"
+msgstr "Etiketa Gabe"
+
+#: deluge/ui/countries.py:9
+msgid "Afghanistan"
+msgstr "Afganistan"
+
+#: deluge/ui/countries.py:10
+msgid "Aland Islands"
+msgstr "Aland Uharteak"
+
+#: deluge/ui/countries.py:11
+msgid "Albania"
+msgstr "Albania"
+
+#: deluge/ui/countries.py:12
+msgid "Algeria"
+msgstr "Aljeria"
+
+#: deluge/ui/countries.py:13
+msgid "American Samoa"
+msgstr "Samoa Amerikarra"
+
+#: deluge/ui/countries.py:14
+msgid "Andorra"
+msgstr "Andorra"
+
+#: deluge/ui/countries.py:15
+msgid "Angola"
+msgstr "Angola"
+
+#: deluge/ui/countries.py:16
+msgid "Anguilla"
+msgstr "Angilla"
+
+#: deluge/ui/countries.py:17
+msgid "Antarctica"
+msgstr "Antartika"
+
+#: deluge/ui/countries.py:18
+msgid "Antigua and Barbuda"
+msgstr "Antigua eta Barbuda"
+
+#: deluge/ui/countries.py:19
+msgid "Argentina"
+msgstr "Argentina"
+
+#: deluge/ui/countries.py:20
+msgid "Armenia"
+msgstr "Armenia"
+
+#: deluge/ui/countries.py:21
+msgid "Aruba"
+msgstr "Aruba"
+
+#: deluge/ui/countries.py:22
+msgid "Australia"
+msgstr "Australia"
+
+#: deluge/ui/countries.py:23
+msgid "Austria"
+msgstr "Austria"
+
+#: deluge/ui/countries.py:24
+msgid "Azerbaijan"
+msgstr "Azerbaijan"
+
+#: deluge/ui/countries.py:25
+msgid "Bahamas"
+msgstr "Bahamak"
+
+#: deluge/ui/countries.py:26
+msgid "Bahrain"
+msgstr "Bahrain"
+
+#: deluge/ui/countries.py:27
+msgid "Bangladesh"
+msgstr "Bangladesh"
+
+#: deluge/ui/countries.py:28
+msgid "Barbados"
+msgstr "Barbados"
+
+#: deluge/ui/countries.py:29
+msgid "Belarus"
+msgstr "Belaerrusia"
+
+#: deluge/ui/countries.py:30
+msgid "Belgium"
+msgstr "Belgika"
+
+#: deluge/ui/countries.py:31
+msgid "Belize"
+msgstr "Belize"
+
+#: deluge/ui/countries.py:32
+msgid "Benin"
+msgstr "Benin"
+
+#: deluge/ui/countries.py:33
+msgid "Bermuda"
+msgstr "Bermuda"
+
+#: deluge/ui/countries.py:34
+msgid "Bhutan"
+msgstr "Bhutan"
+
+#: deluge/ui/countries.py:35
+msgid "Bolivia"
+msgstr "Bolivia"
+
+#: deluge/ui/countries.py:36
+msgid "Bosnia and Herzegovina"
+msgstr "Bosnia eta Herzegovina"
+
+#: deluge/ui/countries.py:37
+msgid "Botswana"
+msgstr "Botswana"
+
+#: deluge/ui/countries.py:38
+msgid "Bouvet Island"
+msgstr "Bouvet Uhartea"
+
+#: deluge/ui/countries.py:39
+msgid "Brazil"
+msgstr "Brazil"
+
+#: deluge/ui/countries.py:40
+msgid "British Indian Ocean Territory"
+msgstr "Indiar Itsasozabaleko Lurralde Britainiarra"
+
+#: deluge/ui/countries.py:41
+msgid "Brunei Darussalam"
+msgstr "Brunei Darussalam"
+
+#: deluge/ui/countries.py:42
+msgid "Bulgaria"
+msgstr "Bulgaria"
+
+#: deluge/ui/countries.py:43
+msgid "Burkina Faso"
+msgstr "Burkina Faso"
+
+#: deluge/ui/countries.py:44
+msgid "Burundi"
+msgstr "Burundi"
+
+#: deluge/ui/countries.py:45
+msgid "Cambodia"
+msgstr "Kambodia"
+
+#: deluge/ui/countries.py:46
+msgid "Cameroon"
+msgstr "Kamerun"
+
+#: deluge/ui/countries.py:47
+msgid "Canada"
+msgstr "Kanada"
+
+#: deluge/ui/countries.py:48
+msgid "Cape Verde"
+msgstr "Cabo Verde"
+
+#: deluge/ui/countries.py:49
+msgid "Cayman Islands"
+msgstr "Kaiman Uharteak"
+
+#: deluge/ui/countries.py:50
+msgid "Central African Republic"
+msgstr "Ertafrikako Herkalderria"
+
+#: deluge/ui/countries.py:51
+msgid "Chad"
+msgstr "Txad"
+
+#: deluge/ui/countries.py:52
+msgid "Chile"
+msgstr "Txile"
+
+#: deluge/ui/countries.py:53
+msgid "China"
+msgstr "Txina"
+
+#: deluge/ui/countries.py:54
+msgid "Christmas Island"
+msgstr "Christmas Uhartea"
+
+#: deluge/ui/countries.py:55
+msgid "Cocos (Keeling) Islands"
+msgstr "Cocos (Keeling) Uharteak"
+
+#: deluge/ui/countries.py:56
+msgid "Colombia"
+msgstr "Colombia"
+
+#: deluge/ui/countries.py:57
+msgid "Comoros"
+msgstr "Komoreak"
+
+#: deluge/ui/countries.py:58
+msgid "Congo"
+msgstr "Kongoa"
+
+#: deluge/ui/countries.py:59
+msgid "Congo, The Democratic Republic of the"
+msgstr "Kongoko Herriaginte Herkalderria"
+
+#: deluge/ui/countries.py:60
+msgid "Cook Islands"
+msgstr "Cook Uharteak"
+
+#: deluge/ui/countries.py:61
+msgid "Costa Rica"
+msgstr "Costa Rica"
+
+#: deluge/ui/countries.py:62
+msgid "Cote d'Ivoire"
+msgstr "Boli Kosta"
+
+#: deluge/ui/countries.py:63
+msgid "Croatia"
+msgstr "Kroazia"
+
+#: deluge/ui/countries.py:64
+msgid "Cuba"
+msgstr "Cuba"
+
+#: deluge/ui/countries.py:65
+msgid "Cyprus"
+msgstr "Zipre"
+
+#: deluge/ui/countries.py:66
+msgid "Czech Republic"
+msgstr "Txekiar Herkalderria"
+
+#: deluge/ui/countries.py:67
+msgid "Denmark"
+msgstr "Danimarka"
+
+#: deluge/ui/countries.py:68
+msgid "Djibouti"
+msgstr "Djibouti"
+
+#: deluge/ui/countries.py:69
+msgid "Dominica"
+msgstr "Dominika"
+
+#: deluge/ui/countries.py:70
+msgid "Dominican Republic"
+msgstr "Dominikar Herkalderria"
+
+#: deluge/ui/countries.py:71
+msgid "Ecuador"
+msgstr "Ecuador"
+
+#: deluge/ui/countries.py:72
+msgid "Egypt"
+msgstr "Egipto"
+
+#: deluge/ui/countries.py:73
+msgid "El Salvador"
+msgstr "El Salvador"
+
+#: deluge/ui/countries.py:74
+msgid "Equatorial Guinea"
+msgstr "Ekuatore Ginea"
+
+#: deluge/ui/countries.py:75
+msgid "Eritrea"
+msgstr "Eritrea"
+
+#: deluge/ui/countries.py:76
+msgid "Estonia"
+msgstr "Estonia"
+
+#: deluge/ui/countries.py:77
+msgid "Ethiopia"
+msgstr "Etiopia"
+
+#: deluge/ui/countries.py:78
+msgid "Falkland Islands (Malvinas)"
+msgstr "Falkland Uharteak (Malvinak)"
+
+#: deluge/ui/countries.py:79
+msgid "Faroe Islands"
+msgstr "Faroe Uharteak"
+
+#: deluge/ui/countries.py:80
+msgid "Fiji"
+msgstr "Fiji"
+
+#: deluge/ui/countries.py:81
+msgid "Finland"
+msgstr "Finlandia"
+
+#: deluge/ui/countries.py:82
+msgid "France"
+msgstr "Frantzia"
+
+#: deluge/ui/countries.py:83
+msgid "French Guiana"
+msgstr "Frantziar Guiana"
+
+#: deluge/ui/countries.py:84
+msgid "French Polynesia"
+msgstr "Frantziar Polinesia"
+
+#: deluge/ui/countries.py:85
+msgid "French Southern Territories"
+msgstr "Hegoaldeko Lurralde Frantziarrak"
+
+#: deluge/ui/countries.py:86
+msgid "Gabon"
+msgstr "Gabon"
+
+#: deluge/ui/countries.py:87
+msgid "Gambia"
+msgstr "Gambia"
+
+#: deluge/ui/countries.py:88
+msgid "Georgia"
+msgstr "Georgia"
+
+#: deluge/ui/countries.py:89
+msgid "Germany"
+msgstr "Alemania"
+
+#: deluge/ui/countries.py:90 deluge/ui/countries.py:241
+msgid "United Kingdom"
+msgstr "Erresuma Batua"
+
+#: deluge/ui/countries.py:91
+msgid "Ghana"
+msgstr "Ghana"
+
+#: deluge/ui/countries.py:92
+msgid "Gibraltar"
+msgstr "Gibraltar"
+
+#: deluge/ui/countries.py:93
+msgid "Greece"
+msgstr "Grezia"
+
+#: deluge/ui/countries.py:94
+msgid "Greenland"
+msgstr "Groenlandia"
+
+#: deluge/ui/countries.py:95
+msgid "Grenada"
+msgstr "Granada"
+
+#: deluge/ui/countries.py:96
+msgid "Guadeloupe"
+msgstr "Guadalupe"
+
+#: deluge/ui/countries.py:97
+msgid "Guam"
+msgstr "Guam"
+
+#: deluge/ui/countries.py:98
+msgid "Guatemala"
+msgstr "Guatemala"
+
+#: deluge/ui/countries.py:99
+msgid "Guernsey"
+msgstr "Guernsey"
+
+#: deluge/ui/countries.py:100
+msgid "Guinea"
+msgstr "Ginea"
+
+#: deluge/ui/countries.py:101
+msgid "Guinea-Bissau"
+msgstr "Ginea Bissau"
+
+#: deluge/ui/countries.py:102
+msgid "Guyana"
+msgstr "Guiana"
+
+#: deluge/ui/countries.py:103
+msgid "Haiti"
+msgstr "Haiti"
+
+#: deluge/ui/countries.py:104
+msgid "Heard Island and McDonald Islands"
+msgstr "Heard Uhartea eta McDonald Uharteak"
+
+#: deluge/ui/countries.py:105
+msgid "Holy See (Vatican City State)"
+msgstr "Egoitza Santua (Vatikano Hiria Estatua)"
+
+#: deluge/ui/countries.py:106
+msgid "Honduras"
+msgstr "Honduraa"
+
+#: deluge/ui/countries.py:107
+msgid "Hong Kong"
+msgstr "Hong Kong"
+
+#: deluge/ui/countries.py:108
+msgid "Hungary"
+msgstr "Hungaria"
+
+#: deluge/ui/countries.py:109
+msgid "Iceland"
+msgstr "Islandia"
+
+#: deluge/ui/countries.py:110
+msgid "India"
+msgstr "India"
+
+#: deluge/ui/countries.py:111
+msgid "Indonesia"
+msgstr "Indonesia"
+
+#: deluge/ui/countries.py:112
+msgid "Iran, Islamic Republic of"
+msgstr "Iran, Islamiar Herkalderria"
+
+#: deluge/ui/countries.py:113
+msgid "Iraq"
+msgstr "Irak"
+
+#: deluge/ui/countries.py:114
+msgid "Ireland"
+msgstr "Irlanda"
+
+#: deluge/ui/countries.py:115
+msgid "Isle of Man"
+msgstr "Man Uhartea"
+
+#: deluge/ui/countries.py:116
+msgid "Israel"
+msgstr "Israel"
+
+#: deluge/ui/countries.py:117
+msgid "Italy"
+msgstr "Italia"
+
+#: deluge/ui/countries.py:118
+msgid "Jamaica"
+msgstr "Jamaika"
+
+#: deluge/ui/countries.py:119
+msgid "Japan"
+msgstr "Japonia"
+
+#: deluge/ui/countries.py:120
+msgid "Jersey"
+msgstr "Jersey"
+
+#: deluge/ui/countries.py:121
+msgid "Jordan"
+msgstr "Jordania"
+
+#: deluge/ui/countries.py:122
+msgid "Kazakhstan"
+msgstr "Kazakhstan"
+
+#: deluge/ui/countries.py:123
+msgid "Kenya"
+msgstr "Kenia"
+
+#: deluge/ui/countries.py:124
+msgid "Kiribati"
+msgstr "Kiribati"
+
+#: deluge/ui/countries.py:125
+msgid "Korea, Democratic People's Republic of"
+msgstr "Korea, Herriagintezko Herri Herkalderria"
+
+#: deluge/ui/countries.py:126
+msgid "Korea, Republic of"
+msgstr "Koreako Herkdalderria"
+
+#: deluge/ui/countries.py:127
+msgid "Kuwait"
+msgstr "Kuwait"
+
+#: deluge/ui/countries.py:128
+msgid "Kyrgyzstan"
+msgstr "Kirgyzstan"
+
+#: deluge/ui/countries.py:129
+msgid "Lao People's Democratic Republic"
+msgstr "Laosko Herriagintezko Herri Herkalderria"
+
+#: deluge/ui/countries.py:130
+msgid "Latvia"
+msgstr "Letonia"
+
+#: deluge/ui/countries.py:131
+msgid "Lebanon"
+msgstr "Libanoa"
+
+#: deluge/ui/countries.py:132
+msgid "Lesotho"
+msgstr "Lesotho"
+
+#: deluge/ui/countries.py:133
+msgid "Liberia"
+msgstr "Liberia"
+
+#: deluge/ui/countries.py:134
+msgid "Libyan Arab Jamahiriya"
+msgstr "Libiako Arabiar Jamahiriya"
+
+#: deluge/ui/countries.py:135
+msgid "Liechtenstein"
+msgstr "Liechtenstein"
+
+#: deluge/ui/countries.py:136
+msgid "Lithuania"
+msgstr "Lituania"
+
+#: deluge/ui/countries.py:137
+msgid "Luxembourg"
+msgstr "Luxemburgo"
+
+#: deluge/ui/countries.py:138
+msgid "Macao"
+msgstr "Makao"
+
+#: deluge/ui/countries.py:139
+msgid "Macedonia, The Former Yugoslav Republic of"
+msgstr "Mazedonia"
+
+#: deluge/ui/countries.py:140
+msgid "Madagascar"
+msgstr "Madagaskar"
+
+#: deluge/ui/countries.py:141
+msgid "Malawi"
+msgstr "Malawi"
+
+#: deluge/ui/countries.py:142
+msgid "Malaysia"
+msgstr "Malaisia"
+
+#: deluge/ui/countries.py:143
+msgid "Maldives"
+msgstr "Maldivak"
+
+#: deluge/ui/countries.py:144
+msgid "Mali"
+msgstr "Mali"
+
+#: deluge/ui/countries.py:145
+msgid "Malta"
+msgstr "Malta"
+
+#: deluge/ui/countries.py:146
+msgid "Marshall Islands"
+msgstr "Marshall Uharteak"
+
+#: deluge/ui/countries.py:147
+msgid "Martinique"
+msgstr "Martinika"
+
+#: deluge/ui/countries.py:148
+msgid "Mauritania"
+msgstr "Mauritania"
+
+#: deluge/ui/countries.py:149
+msgid "Mauritius"
+msgstr "Maurizio"
+
+#: deluge/ui/countries.py:150
+msgid "Mayotte"
+msgstr "Mayotte"
+
+#: deluge/ui/countries.py:151
+msgid "Mexico"
+msgstr "Mexiko"
+
+#: deluge/ui/countries.py:152
+msgid "Micronesia, Federated States of"
+msgstr "Mikronesiako Estatu Federatuak"
+
+#: deluge/ui/countries.py:153
+msgid "Moldova"
+msgstr "Moldavia"
+
+#: deluge/ui/countries.py:154
+msgid "Monaco"
+msgstr "Monako"
+
+#: deluge/ui/countries.py:155
+msgid "Mongolia"
+msgstr "Mongolia"
+
+#: deluge/ui/countries.py:156
+msgid "Montenegro"
+msgstr "Montenegro"
+
+#: deluge/ui/countries.py:157
+msgid "Montserrat"
+msgstr "Montserrat"
+
+#: deluge/ui/countries.py:158
+msgid "Morocco"
+msgstr "Maroko"
+
+#: deluge/ui/countries.py:159
+msgid "Mozambique"
+msgstr "Mozambique"
+
+#: deluge/ui/countries.py:160
+msgid "Myanmar"
+msgstr "Myanmar"
+
+#: deluge/ui/countries.py:161
+msgid "Namibia"
+msgstr "Namibia"
+
+#: deluge/ui/countries.py:162
+msgid "Nauru"
+msgstr "Nauru"
+
+#: deluge/ui/countries.py:163
+msgid "Nepal"
+msgstr "Nepal"
+
+#: deluge/ui/countries.py:164
+msgid "Netherlands"
+msgstr "Herbehereak"
+
+#: deluge/ui/countries.py:165
+msgid "Netherlands Antilles"
+msgstr "Herbeherear Antillak"
+
+#: deluge/ui/countries.py:166
+msgid "New Caledonia"
+msgstr "Kaledonia Berria"
+
+#: deluge/ui/countries.py:167
+msgid "New Zealand"
+msgstr "Zelanda Berria"
+
+#: deluge/ui/countries.py:168
+msgid "Nicaragua"
+msgstr "Nicaragua"
+
+#: deluge/ui/countries.py:169
+msgid "Niger"
+msgstr "Niger"
+
+#: deluge/ui/countries.py:170
+msgid "Nigeria"
+msgstr "Nigeria"
+
+#: deluge/ui/countries.py:171
+msgid "Niue"
+msgstr "Niue"
+
+#: deluge/ui/countries.py:172
+msgid "Norfolk Island"
+msgstr "Norfolk Uhartea"
+
+#: deluge/ui/countries.py:173
+msgid "Northern Mariana Islands"
+msgstr "Iparraldeko Mariana Uharteak"
+
+#: deluge/ui/countries.py:174
+msgid "Norway"
+msgstr "Norvegia"
+
+#: deluge/ui/countries.py:175
+msgid "Oman"
+msgstr "Oman"
+
+#: deluge/ui/countries.py:176
+msgid "Pakistan"
+msgstr "Pakistan"
+
+#: deluge/ui/countries.py:177
+msgid "Palau"
+msgstr "Belau"
+
+#: deluge/ui/countries.py:178
+msgid "Palestinian Territory, Occupied"
+msgstr "Palestinar Lurraldea, Okupatua"
+
+#: deluge/ui/countries.py:179
+msgid "Panama"
+msgstr "Panama"
+
+#: deluge/ui/countries.py:180
+msgid "Papua New Guinea"
+msgstr "Papua Ginea Berria"
+
+#: deluge/ui/countries.py:181
+msgid "Paraguay"
+msgstr "Paraguay"
+
+#: deluge/ui/countries.py:182
+msgid "Peru"
+msgstr "Peru"
+
+#: deluge/ui/countries.py:183
+msgid "Philippines"
+msgstr "Filipinak"
+
+#: deluge/ui/countries.py:184
+msgid "Pitcairn"
+msgstr "Pitcairn"
+
+#: deluge/ui/countries.py:185
+msgid "Poland"
+msgstr "Polonia"
+
+#: deluge/ui/countries.py:186
+msgid "Portugal"
+msgstr "Portugal"
+
+#: deluge/ui/countries.py:187
+msgid "Puerto Rico"
+msgstr "Puerto Rico"
+
+#: deluge/ui/countries.py:188
+msgid "Qatar"
+msgstr "Qatar"
+
+#: deluge/ui/countries.py:189
+msgid "Reunion"
+msgstr "Reunion"
+
+#: deluge/ui/countries.py:190
+msgid "Romania"
+msgstr "Errumania"
+
+#: deluge/ui/countries.py:191
+msgid "Russian Federation"
+msgstr "Errusiar Federazioa"
+
+#: deluge/ui/countries.py:192
+msgid "Rwanda"
+msgstr "Rwanda"
+
+#: deluge/ui/countries.py:193
+msgid "Saint Barthelemy"
+msgstr "Saint Bartolome"
+
+#: deluge/ui/countries.py:194
+msgid "Saint Helena"
+msgstr "Saint Helena"
+
+#: deluge/ui/countries.py:195
+msgid "Saint Kitts and Nevis"
+msgstr "Saint Kitts eta Nevis"
+
+#: deluge/ui/countries.py:196
+msgid "Saint Lucia"
+msgstr "Saint Lucia"
+
+#: deluge/ui/countries.py:197
+msgid "Saint Martin"
+msgstr "Saint Martin"
+
+#: deluge/ui/countries.py:198
+msgid "Saint Pierre and Miquelon"
+msgstr "Saint Pierre eta Mikelune"
+
+#: deluge/ui/countries.py:199
+msgid "Saint Vincent and the Grenadines"
+msgstr "Saint Vincent eta Grenadinak"
+
+#: deluge/ui/countries.py:200
+msgid "Samoa"
+msgstr "Samoa"
+
+#: deluge/ui/countries.py:201
+msgid "San Marino"
+msgstr "San Marino"
+
+#: deluge/ui/countries.py:202
+msgid "Sao Tome and Principe"
+msgstr "Sao Tome eta Principe"
+
+#: deluge/ui/countries.py:203
+msgid "Saudi Arabia"
+msgstr "Saudi Arabia"
+
+#: deluge/ui/countries.py:204
+msgid "Senegal"
+msgstr "Senegal"
+
+#: deluge/ui/countries.py:205
+msgid "Serbia"
+msgstr "Serbia"
+
+#: deluge/ui/countries.py:206
+msgid "Seychelles"
+msgstr "Seychelles"
+
+#: deluge/ui/countries.py:207
+msgid "Sierra Leone"
+msgstr "Sierra Leona"
+
+#: deluge/ui/countries.py:208
+msgid "Singapore"
+msgstr "Singapur"
+
+#: deluge/ui/countries.py:209
+msgid "Slovakia"
+msgstr "Eslovakia"
+
+#: deluge/ui/countries.py:210
+msgid "Slovenia"
+msgstr "Eslovenia"
+
+#: deluge/ui/countries.py:211
+msgid "Solomon Islands"
+msgstr "Salomon Uharteak"
+
+#: deluge/ui/countries.py:212
+msgid "Somalia"
+msgstr "Somalia"
+
+#: deluge/ui/countries.py:213
+msgid "South Africa"
+msgstr "Hego Afrika"
+
+#: deluge/ui/countries.py:214
+msgid "South Georgia and the South Sandwich Islands"
+msgstr "Hego Georgia eta Hego Sandwich Uharteak"
+
+#: deluge/ui/countries.py:215
+msgid "Spain"
+msgstr "Espainia"
+
+#: deluge/ui/countries.py:216
+msgid "Sri Lanka"
+msgstr "Sri Lanka"
+
+#: deluge/ui/countries.py:217
+msgid "Sudan"
+msgstr "Sudan"
+
+#: deluge/ui/countries.py:218
+msgid "Suriname"
+msgstr "Surinam"
+
+#: deluge/ui/countries.py:219
+msgid "Svalbard and Jan Mayen"
+msgstr "Svalbard eta Jan Mayen"
+
+#: deluge/ui/countries.py:220
+msgid "Swaziland"
+msgstr "Swazilandia"
+
+#: deluge/ui/countries.py:221
+msgid "Sweden"
+msgstr "Suedia"
+
+#: deluge/ui/countries.py:222
+msgid "Switzerland"
+msgstr "Suitza"
+
+#: deluge/ui/countries.py:223
+msgid "Syrian Arab Republic"
+msgstr "Siriako Arabiar Herkalderria"
+
+#: deluge/ui/countries.py:224
+msgid "Taiwan, Province of China"
+msgstr "Taiwan, Txinako Herrialdea"
+
+#: deluge/ui/countries.py:225
+msgid "Tajikistan"
+msgstr "Tajikistan"
+
+#: deluge/ui/countries.py:226
+msgid "Tanzania, United Republic of"
+msgstr "Tanzania, Herkalderri Batua"
+
+#: deluge/ui/countries.py:227
+msgid "Thailand"
+msgstr "Thailandia"
+
+#: deluge/ui/countries.py:228
+msgid "Timor-Leste"
+msgstr "Timor-Ekialdea"
+
+#: deluge/ui/countries.py:229
+msgid "Togo"
+msgstr "Togo"
+
+#: deluge/ui/countries.py:230
+msgid "Tokelau"
+msgstr "Tokelau"
+
+#: deluge/ui/countries.py:231
+msgid "Tonga"
+msgstr "Tonga"
+
+#: deluge/ui/countries.py:232
+msgid "Trinidad and Tobago"
+msgstr "Trinidad eta Tobago"
+
+#: deluge/ui/countries.py:233
+msgid "Tunisia"
+msgstr "Tunizia"
+
+#: deluge/ui/countries.py:234
+msgid "Turkey"
+msgstr "Turkia"
+
+#: deluge/ui/countries.py:235
+msgid "Turkmenistan"
+msgstr "Turkmenistan"
+
+#: deluge/ui/countries.py:236
+msgid "Turks and Caicos Islands"
+msgstr "Turks eta Caicos Uharteak"
+
+#: deluge/ui/countries.py:237
+msgid "Tuvalu"
+msgstr "Tuvalu"
+
+#: deluge/ui/countries.py:238
+msgid "Uganda"
+msgstr "Uganda"
+
+#: deluge/ui/countries.py:239
+msgid "Ukraine"
+msgstr "Ukrainia"
+
+#: deluge/ui/countries.py:240
+msgid "United Arab Emirates"
+msgstr "Arabiar Emirerri Batuak"
+
+#: deluge/ui/countries.py:242
+msgid "United States"
+msgstr "Estatu Batuak"
+
+#: deluge/ui/countries.py:243
+msgid "United States Minor Outlying Islands"
+msgstr "Estatu Batuetako Kanpoaldeko Uharte Txikiak"
+
+#: deluge/ui/countries.py:244
+msgid "Uruguay"
+msgstr "Uruguay"
+
+#: deluge/ui/countries.py:245
+msgid "Uzbekistan"
+msgstr "Uzbekistan"
+
+#: deluge/ui/countries.py:246
+msgid "Vanuatu"
+msgstr "Vanuatu"
+
+#: deluge/ui/countries.py:247
+msgid "Venezuela"
+msgstr "Venezuela"
+
+#: deluge/ui/countries.py:248
+msgid "Viet Nam"
+msgstr "Vietnam"
+
+#: deluge/ui/countries.py:249
+msgid "Virgin Islands, British"
+msgstr "Virgin Uharteak, Britainarrak"
+
+#: deluge/ui/countries.py:250
+msgid "Virgin Islands, U.S."
+msgstr "Virgin Uharteak, AEB"
+
+#: deluge/ui/countries.py:251
+msgid "Wallis and Futuna"
+msgstr "Wallis eta Futuna"
+
+#: deluge/ui/countries.py:252
+msgid "Western Sahara"
+msgstr "Mendebaldeko Sahara"
+
+#: deluge/ui/countries.py:253
+msgid "Yemen"
+msgstr "Yemen"
+
+#: deluge/ui/countries.py:254
+msgid "Zambia"
+msgstr "Zambia"
+
+#: deluge/ui/countries.py:255
+msgid "Zimbabwe"
+msgstr "Zimbawe"
+
+#: deluge/ui/client.py:590 deluge/ui/gtkui/connectionmanager.py:416
+msgid ""
+"Deluge cannot find the 'deluged' executable, it is likely that you forgot to "
+"install the deluged package or it's not in your PATH."
+msgstr ""
+"Delugek ezin du 'deluged' exekutagarria aurkitu, izan daiteke deluged "
+"paketea ezartzeaz ahaztu zarelako edo ez dagoelako zure HELBURUAN."
+
+#: deluge/ui/web/server.py:661
+msgid "Starting server in PID"
+msgstr "Zerbitzaria PID-n abiarazten"
+
+#: deluge/ui/web/json_api.py:776 deluge/ui/web/json_api.py:795
+#: deluge/ui/web/json_api.py:804 deluge/ui/web/json_api.py:807
+#: deluge/ui/web/json_api.py:814 deluge/ui/gtkui/connectionmanager.py:75
+#: deluge/ui/gtkui/connectionmanager.py:215
+#: deluge/ui/gtkui/connectionmanager.py:246
+#: deluge/ui/gtkui/connectionmanager.py:283
+#: deluge/ui/gtkui/connectionmanager.py:296
+#: deluge/ui/gtkui/connectionmanager.py:378
+#: deluge/ui/gtkui/connectionmanager.py:389
+#: deluge/ui/gtkui/connectionmanager.py:453
+#: deluge/ui/gtkui/connectionmanager.py:570
+msgid "Offline"
+msgstr "Lineaz-kanpo"
+
+#: deluge/ui/web/json_api.py:800 deluge/ui/gtkui/connectionmanager.py:76
+#: deluge/ui/gtkui/connectionmanager.py:274
+#: deluge/ui/gtkui/connectionmanager.py:382
+#: deluge/ui/gtkui/connectionmanager.py:553
+msgid "Online"
+msgstr "Online"
+
+#: deluge/ui/web/json_api.py:820 deluge/ui/gtkui/connectionmanager.py:77
+#: deluge/ui/gtkui/connectionmanager.py:313
+#: deluge/ui/gtkui/connectionmanager.py:372
+#: deluge/ui/gtkui/connectionmanager.py:382
+#: deluge/ui/gtkui/connectionmanager.py:441
+#: deluge/ui/gtkui/connectionmanager.py:553
+msgid "Connected"
+msgstr "Elkarketatuta"
+
+#: deluge/ui/web/json_api.py:847
+msgid "Daemon doesn't exist"
+msgstr "Daemon ez dago"
+
+#: deluge/ui/web/json_api.py:853
+msgid "Daemon not running"
+msgstr "Daemon ez dabil"
+
+#: deluge/ui/console/statusbars.py:104
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1071
+msgid "DHT"
+msgstr "DHT"
+
+#: deluge/ui/gtkui/notification.py:79
+msgid "Torrent complete"
+msgstr "Torrent osatua"
+
+#: deluge/ui/gtkui/notification.py:80
+msgid "Including"
+msgstr "Barneratzen"
+
+#: deluge/ui/gtkui/notification.py:80
+msgid "files"
+msgstr "fitxategi"
+
+#: deluge/ui/gtkui/notification.py:109
+#, python-format
+msgid ""
+"This email is to inform you that Deluge has finished downloading %(name)s ,  "
+"           which includes %(num_files)i files.\n"
+"To stop receiving these alerts, simply turn off             email "
+"notification in Deluge's preferences.\n"
+"\n"
+"Thank you,\n"
+"Deluge"
+msgstr ""
+"Post@ hau da zuri jakinarazteko Delugek amaitu duela jeisketa:  %(name)s , "
+"barne duenak %(num_files)i agiriak.\n"
+"Jakinarazpen hauek jasotzeari uzteko, besterik gabe itzali post@ "
+"jakinarazpena Delugeren hobespenetan.\n"
+"\n"
+"Mila esker,\n"
+"Deluge"
+
+#: deluge/ui/gtkui/torrentview.py:85 deluge/ui/gtkui/filtertreeview.py:72
+msgid "Downloading"
+msgstr "Jeisten"
+
+#: deluge/ui/gtkui/torrentview.py:86 deluge/ui/gtkui/filtertreeview.py:73
+msgid "Seeding"
+msgstr "Emaritzan"
+
+#: deluge/ui/gtkui/torrentview.py:87 deluge/ui/gtkui/filtertreeview.py:74
+msgid "Paused"
+msgstr "Pausatuta"
+
+#: deluge/ui/gtkui/torrentview.py:88 deluge/ui/gtkui/filtertreeview.py:75
+msgid "Checking"
+msgstr "Egiaztatzen"
+
+#: deluge/ui/gtkui/torrentview.py:89 deluge/ui/gtkui/filtertreeview.py:76
+msgid "Queued"
+msgstr "Lerrokatuta"
+
+#: deluge/ui/gtkui/torrentview.py:236
+msgid "Name"
+msgstr "Izena"
+
+#: deluge/ui/gtkui/torrentview.py:239
+#: deluge/ui/gtkui/createtorrentdialog.py:90 deluge/ui/gtkui/files_tab.py:143
+#: deluge/ui/gtkui/addtorrentdialog.py:124
+msgid "Size"
+msgstr "Neurria"
+
+#: deluge/ui/gtkui/torrentview.py:242
+msgid "Downloaded"
+msgstr "Jeitsita"
+
+#: deluge/ui/gtkui/torrentview.py:245
+msgid "Uploaded"
+msgstr "Igota"
+
+#: deluge/ui/gtkui/torrentview.py:248 deluge/ui/gtkui/torrentview.py:578
+#: deluge/ui/gtkui/peers_tab.py:129 deluge/ui/gtkui/files_tab.py:156
+msgid "Progress"
+msgstr "Garapena"
+
+#: deluge/ui/gtkui/torrentview.py:252 deluge/ui/gtkui/torrentview.py:258
+msgid "Seeders"
+msgstr "Emaleak"
+
+#: deluge/ui/gtkui/torrentview.py:255 deluge/ui/gtkui/torrentview.py:258
+msgid "Peers"
+msgstr "Hartzaileak"
+
+#: deluge/ui/gtkui/torrentview.py:260 deluge/ui/gtkui/peers_tab.py:142
+msgid "Down Speed"
+msgstr "Jeisketa Abiadura"
+
+#: deluge/ui/gtkui/torrentview.py:262 deluge/ui/gtkui/peers_tab.py:155
+msgid "Up Speed"
+msgstr "Igoera Abiadura"
+
+#: deluge/ui/gtkui/torrentview.py:264
+msgid "Down Limit"
+msgstr "Jeisketa Muga"
+
+#: deluge/ui/gtkui/torrentview.py:266
+msgid "Up Limit"
+msgstr "Igoera Muga"
+
+#: deluge/ui/gtkui/torrentview.py:268
+msgid "ETA"
+msgstr "UED"
+
+#: deluge/ui/gtkui/torrentview.py:270
+msgid "Ratio"
+msgstr "Maila"
+
+#: deluge/ui/gtkui/torrentview.py:272
+msgid "Avail"
+msgstr "Eskura"
+
+#: deluge/ui/gtkui/torrentview.py:274
+msgid "Added"
+msgstr "Gehituta"
+
+#: deluge/ui/gtkui/torrentview.py:276
+#: deluge/ui/gtkui/createtorrentdialog.py:105
+#: deluge/ui/gtkui/edittrackersdialog.py:86
+msgid "Tracker"
+msgstr "Aztarnaria"
+
+#: deluge/ui/gtkui/torrentview.py:280
+msgid "Save Path"
+msgstr "Gorde Helburua"
+
+#: deluge/ui/gtkui/peers_tab.py:100
+msgid "Address"
+msgstr "Helbidea"
+
+#: deluge/ui/gtkui/peers_tab.py:116
+msgid "Client"
+msgstr "Bezeroa"
+
+#: deluge/ui/gtkui/new_release_dialog.py:72
+msgid "<i>Client Version</i>"
+msgstr "<i>Bezero Bertsioa</i>"
+
+#: deluge/ui/gtkui/systemtray.py:201 deluge/ui/gtkui/systemtray.py:258
+#: deluge/ui/gtkui/aboutdialog.py:55
+#: deluge/data/share/applications/deluge.desktop.in.h:2
+msgid "Deluge"
+msgstr "Deluge"
+
+#: deluge/ui/gtkui/systemtray.py:201
+msgid "Not Connected..."
+msgstr "Elkarketatu gabe"
+
+#: deluge/ui/gtkui/systemtray.py:249 deluge/ui/gtkui/systemtray.py:253
+#: deluge/ui/gtkui/systemtray.py:423 deluge/ui/gtkui/common.py:70
+#: deluge/ui/gtkui/statusbar.py:397 deluge/ui/gtkui/statusbar.py:425
+#: deluge/ui/gtkui/statusbar.py:452
+msgid "Unlimited"
+msgstr "Mugagabea"
+
+#: deluge/ui/gtkui/systemtray.py:258
+msgid "Down"
+msgstr "Behera"
+
+#: deluge/ui/gtkui/systemtray.py:259
+msgid "Up"
+msgstr "Gora"
+
+#: deluge/ui/gtkui/systemtray.py:403 deluge/ui/gtkui/menubar.py:436
+#: deluge/ui/gtkui/statusbar.py:401
+msgid "Set Maximum Download Speed"
+msgstr "Ezarri Gehienezko Jeisketa Abiadura"
+
+#: deluge/ui/gtkui/systemtray.py:417 deluge/ui/gtkui/menubar.py:437
+#: deluge/ui/gtkui/statusbar.py:429
+msgid "Set Maximum Upload Speed"
+msgstr "Ezarri Gehienezko Igoera Abiadura"
+
+#: deluge/ui/gtkui/systemtray.py:426 deluge/ui/gtkui/common.py:127
+#: deluge/ui/gtkui/common.py:128 deluge/ui/gtkui/menubar.py:81
+#: deluge/ui/gtkui/statusbar.py:399 deluge/ui/gtkui/statusbar.py:427
+#: deluge/ui/gtkui/statusbar.py:454
+msgid "Other..."
+msgstr "Besterik..."
+
+#: deluge/ui/gtkui/systemtray.py:470
+msgid "Deluge is password protected!"
+msgstr "Deluge sar-hitzez babestuta dago!"
+
+#: deluge/ui/gtkui/systemtray.py:476
+msgid "Enter your password to continue"
+msgstr "Sartu zure sar-hitza jarraitzeko"
+
+#: deluge/ui/gtkui/common.py:73
+msgid "Activated"
+msgstr "Eraginda"
+
+#: deluge/ui/gtkui/createtorrentdialog.py:80 deluge/ui/gtkui/files_tab.py:122
+#: deluge/ui/gtkui/addtorrentdialog.py:111
+msgid "Filename"
+msgstr "Fitxategi-izena"
+
+#: deluge/ui/gtkui/createtorrentdialog.py:103
+#: deluge/ui/gtkui/edittrackersdialog.py:84
+msgid "Tier"
+msgstr "Maila"
+
+#: deluge/ui/gtkui/createtorrentdialog.py:143
+msgid "Choose a file"
+msgstr "Hautatu fitxategi bat"
+
+#: deluge/ui/gtkui/createtorrentdialog.py:172
+msgid "Choose a folder"
+msgstr "Hautatu karpeta"
+
+#: deluge/ui/gtkui/createtorrentdialog.py:241
+msgid "Save .torrent file"
+msgstr "Gorde .torrent fitxategia"
+
+#: deluge/ui/gtkui/createtorrentdialog.py:253
+#: deluge/ui/gtkui/addtorrentdialog.py:563
+msgid "Torrent files"
+msgstr "Torrent fitxategiak"
+
+#: deluge/ui/gtkui/createtorrentdialog.py:257
+#: deluge/ui/gtkui/addtorrentdialog.py:567
+msgid "All files"
+msgstr "Fitxategi guztiak"
+
+#: deluge/ui/gtkui/files_tab.py:56
+msgid "Do Not Download"
+msgstr "Ez Jeitsi"
+
+#: deluge/ui/gtkui/files_tab.py:57
+msgid "Normal Priority"
+msgstr "Lehentasun Arrunta"
+
+#: deluge/ui/gtkui/files_tab.py:58
+msgid "High Priority"
+msgstr "Lehentasun Handia"
+
+#: deluge/ui/gtkui/files_tab.py:59
+msgid "Highest Priority"
+msgstr "Lehentasun Handiena"
+
+#: deluge/ui/gtkui/files_tab.py:169
+msgid "Priority"
+msgstr "Lehentasuna"
+
+#: deluge/ui/gtkui/addtorrentdialog.py:103
+#: deluge/ui/gtkui/queuedtorrents.py:76
+msgid "Torrent"
+msgstr "Torrenta"
+
+#: deluge/ui/gtkui/addtorrentdialog.py:215
+msgid "Invalid File"
+msgstr "Baliogabeko fitxategia"
+
+#: deluge/ui/gtkui/addtorrentdialog.py:220
+msgid "Duplicate Torrent"
+msgstr "Torrenta Bikoiztua"
+
+#: deluge/ui/gtkui/addtorrentdialog.py:220
+msgid "You cannot add the same torrent twice."
+msgstr "Ezin duzu torrent bera bi aldiz gehitu."
+
+#: deluge/ui/gtkui/addtorrentdialog.py:501
+msgid "Unable to set file priority!"
+msgstr "Ezinezkoa fitxategiaren lehentasuna ezartzea!"
+
+#: deluge/ui/gtkui/addtorrentdialog.py:501
+msgid ""
+"File prioritization is unavailable when using Compact allocation.  Would you "
+"like to switch to Full allocation?"
+msgstr ""
+"Agiri lehentasuna eskuraezina da esleipen Trinkoa erabiltzean. Esleipen "
+"Osora aldatzea nahi duzu?"
+
+#: deluge/ui/gtkui/addtorrentdialog.py:550
+msgid "Choose a .torrent file"
+msgstr "Hautatu .torrent fitxategi bat"
+
+#: deluge/ui/gtkui/addtorrentdialog.py:632
+msgid "Invalid URL"
+msgstr "URL Baliogabea"
+
+#: deluge/ui/gtkui/addtorrentdialog.py:632
+msgid "is not a valid URL."
+msgstr "ez da baliozko URL bat."
+
+#: deluge/ui/gtkui/addtorrentdialog.py:636
+msgid "Downloading..."
+msgstr "Jeisten..."
+
+#: deluge/ui/gtkui/addtorrentdialog.py:678
+msgid "Download Failed"
+msgstr "Jeisketa Hutsegitea"
+
+#: deluge/ui/gtkui/addtorrentdialog.py:678
+msgid "Failed to download:"
+msgstr "Hutsegitea jeisterakoan:"
+
+#: deluge/ui/gtkui/queuedtorrents.py:136
+msgid " Torrents Queued"
+msgstr " Torrentak Lerrokatuta"
+
+#: deluge/ui/gtkui/queuedtorrents.py:138
+msgid " Torrent Queued"
+msgstr " Torrenta Lerrokatuta"
+
+#: deluge/ui/gtkui/preferences.py:73
+msgid "Categories"
+msgstr "Kategoriak"
+
+#: deluge/ui/gtkui/preferences.py:77
+msgid "Downloads"
+msgstr "Jeisketak"
+
+#: deluge/ui/gtkui/preferences.py:77
+msgid "Network"
+msgstr "Sarea"
+
+#: deluge/ui/gtkui/preferences.py:77
+msgid "Bandwidth"
+msgstr "Bandazabalera"
+
+#: deluge/ui/gtkui/preferences.py:78
+msgid "Interface"
+msgstr "Interfazea"
+
+#: deluge/ui/gtkui/preferences.py:78
+msgid "Other"
+msgstr "Besteak"
+
+#: deluge/ui/gtkui/preferences.py:78
+msgid "Daemon"
+msgstr "Daemon"
+
+#: deluge/ui/gtkui/preferences.py:78
+msgid "Proxy"
+msgstr "Proxya"
+
+#: deluge/ui/gtkui/preferences.py:79
+msgid "Cache"
+msgstr "Katxea"
+
+#: deluge/ui/gtkui/preferences.py:79
+msgid "Plugins"
+msgstr "Pluginak"
+
+#: deluge/ui/gtkui/preferences.py:94
+msgid "Plugin"
+msgstr "Plugina"
+
+#: deluge/ui/gtkui/preferences.py:895
+msgid "Select the Plugin"
+msgstr "Hautatu Plugina"
+
+#: deluge/ui/gtkui/preferences.py:906
+msgid "Plugin Eggs"
+msgstr "Plugin Eggs"
+
+#: deluge/ui/gtkui/menubar.py:77
+msgid "Set Unlimited"
+msgstr "Ezarri Mugagabea"
+
+#: deluge/ui/gtkui/menubar.py:89 deluge/ui/gtkui/status_tab.py:128
+msgid "On"
+msgstr "Eraginda"
+
+#: deluge/ui/gtkui/menubar.py:92 deluge/ui/gtkui/status_tab.py:130
+msgid "Off"
+msgstr "Etenda"
+
+#: deluge/ui/gtkui/menubar.py:319
+msgid "Choose a directory to move files to"
+msgstr "Hautatu karpeta bat fitxategiak hara mugitzeko"
+
+#: deluge/ui/gtkui/menubar.py:438 deluge/ui/gtkui/statusbar.py:456
+msgid "Set Maximum Connections"
+msgstr "Ezarri Gehienezko Elkarketak"
+
+#: deluge/ui/gtkui/menubar.py:439
+msgid "Set Maximum Upload Slots"
+msgstr "Ezarri Gehienezko Igoera Ahoak"
+
+#: deluge/ui/gtkui/gtkui.py:311 deluge/ui/gtkui/gtkui.py:326
+msgid "Turn off Classic Mode?"
+msgstr "Itzali Modu Klasikoa?"
+
+#: deluge/ui/gtkui/gtkui.py:312
+msgid ""
+"It appears that a Deluge daemon process (deluged) is already running.\n"
+"\n"
+"You will either need to stop the daemon or turn off Classic Mode to continue."
+msgstr ""
+"Agertzen da Deluge daemon garapena (deluged) jadanik ekinda dagoelako. \n"
+"\n"
+"Daemon gelditu behar duzu edo Modu Klasikoa itzali jarraitzeko."
+
+#: deluge/ui/gtkui/gtkui.py:321
+msgid "Error Starting Core"
+msgstr "Akatsa Corea Abiarazterakoan"
+
+#: deluge/ui/gtkui/gtkui.py:322
+msgid ""
+"There was an error starting the core component which is required to run "
+"Deluge in Classic Mode.\n"
+"\n"
+"Please see the details below for more information."
+msgstr ""
+"Deluge Modu Klasikoan ekiteko beharrezkoa den Core osagaia abiaraztean akats "
+"bat egon da. \n"
+"\n"
+"Mesedez ikusi beheko xehetasunak argibide gehiagorako."
+
+#: deluge/ui/gtkui/gtkui.py:327
+msgid ""
+"Since there was an error starting in Classic Mode would you like to continue "
+"by turning it off?"
+msgstr ""
+"Modu Klasikoa abiaraztean akats bat egon denez jarraitzea nahi duzu itzaliz?"
+
+#: deluge/ui/gtkui/gtkui.py:351
+msgid "Error Starting Daemon"
+msgstr "Akatsa Daemon Abiarazterakoan"
+
+#: deluge/ui/gtkui/gtkui.py:352
+msgid ""
+"There was an error starting the daemon process.  Try running it from a "
+"console to see if there is an error."
+msgstr ""
+"Akats bat egon da daemon garapena abiaraztean. Saiatu ekiten kontsolatik "
+"akatsik dagoen ikusteko."
+
+#: deluge/ui/gtkui/connectionmanager.py:149
+msgid "Status"
+msgstr "Egoera"
+
+#: deluge/ui/gtkui/connectionmanager.py:153
+msgid "Host"
+msgstr "Hostalaria"
+
+#: deluge/ui/gtkui/connectionmanager.py:158
+msgid "Version"
+msgstr "Bertsioa"
+
+#: deluge/ui/gtkui/connectionmanager.py:386
+msgid "_Stop Daemon"
+msgstr "_Gelditu Daemon"
+
+#: deluge/ui/gtkui/connectionmanager.py:394
+msgid "_Start Daemon"
+msgstr "_Abiarazi Daemon"
+
+#: deluge/ui/gtkui/connectionmanager.py:415
+#: deluge/ui/gtkui/connectionmanager.py:425
+msgid "Unable to start daemon!"
+msgstr "Ezinezkoa daemon abiaraztea!"
+
+#: deluge/ui/gtkui/connectionmanager.py:426
+msgid "Please examine the details for more information."
+msgstr "Mesedez aztertu xehetasunak argibide gehiagorako."
+
+#: deluge/ui/gtkui/connectionmanager.py:510
+msgid "Error Adding Host"
+msgstr "Akatsa Hostalaria gehitzerakoan"
+
+#: deluge/ui/gtkui/removetorrentdialog.py:78
+msgid "Torrents"
+msgstr "Torrentak"
+
+#: deluge/ui/gtkui/dialogs.py:174
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4717
+msgid "Details:"
+msgstr "Xehetasunak"
+
+#: deluge/ui/gtkui/mainwindow.py:257
+msgid "D:"
+msgstr "J"
+
+#: deluge/ui/gtkui/mainwindow.py:257
+msgid "U:"
+msgstr "I"
+
+#: deluge/ui/gtkui/aboutdialog.py:59
+msgid "Copyright 2007-2011 Deluge Team"
+msgstr "Copyrighta 2007-2011 Deluge Team"
+
+#: deluge/ui/gtkui/aboutdialog.py:61
+msgid ""
+"A peer-to-peer file sharing program\n"
+"utilizing the BitTorrent protocol."
+msgstr ""
+"Fitxategiak partekatzeko P2P programa\n"
+"BitTorrent protokoloa erabiliz."
+
+#: deluge/ui/gtkui/aboutdialog.py:62
+msgid "Client:"
+msgstr "Bezeroa:"
+
+#: deluge/ui/gtkui/aboutdialog.py:65
+msgid "Current Developers:"
+msgstr "Oraingo Garatzaileak:"
+
+#: deluge/ui/gtkui/aboutdialog.py:67
+msgid "Past Developers or Contributors:"
+msgstr "Lehengo Garatzaileak edo Laguntzaileak:"
+
+#: deluge/ui/gtkui/aboutdialog.py:252
+msgid ""
+"This program is free software; you can redistribute it and/or modify it "
+"under the terms of the GNU General Public License as published by the Free "
+"Software Foundation; either version 3 of the License, or (at your option) "
+"any later version. \n"
+"\n"
+"This program is distributed in the hope that it will be useful, but WITHOUT "
+"ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or "
+"FITNESS FOR A PARTICULAR PURPOSE. See the GNU General Public License for "
+"more details. \n"
+"\n"
+"You should have received a copy of the GNU General Public License along with "
+"this program; if not, see <http://www.gnu.org/licenses>. \n"
+"\n"
+"In addition, as a special exception, the copyright holders give permission "
+"to link the code of portions of this program with the OpenSSL library. You "
+"must obey the GNU General Public License in all respects for all of the code "
+"used other than OpenSSL. \n"
+"\n"
+"If you modify file(s) with this exception, you may extend this exception to "
+"your version of the file(s), but you are not obligated to do so. If you do "
+"not wish to do so, delete this exception statement from your version. If you "
+"delete this exception statement from all source files in the program, then "
+"also delete it here."
+msgstr ""
+"Programa hau software askea da; birbanatu dezakezu eta/edo aldatu Free "
+"Software Foundation-ek argitaratutako GNU Baimen Publiko Orokorraren "
+"balditzetan; Baimenaren 3. bertsioan, edo (zure aukeran) berriago batean. "
+"Programa hau erabilgarria izango delakoan argitaratzen da, baina INOLAKO "
+"BERME GABE; ezta MERKATURATZE edo ASMO ZEHATZ BATERAKO EGOKITASUN bermerik. "
+"Ikusi GNU Baimen Publiko Orokorra xehetasun gehiagorako. GNU Baimen Publiko "
+"Orokorraren kopia bat jasoa izango duzu programa honekin batera; bestela "
+"ikusi <http://www.gnu.org/licenses>. Gainera, salbuespen berezi bezala "
+"copyrightak baimena ematen du programa honen kode zatiak loturatzeko OpenSSL "
+"liburutegiarekin. GNU Baimen Publiko Orokorra bete behar duzu OpenSSL ez den "
+"kode erabilpenari buruz. Agiria(k) aldatzen badituzu salbuespen honekin, "
+"salbuespen hau zure agirien bertsioetara zabaldu dezakezu, baina ez zaude "
+"egitera behartuta. Ez baduzu egiterik nahi, ezabatu salbuespen adierazpen "
+"hau zure bertsiotik. Salbuespen adierazpen hau programan iturburu agiri "
+"guztietatik ezabatzen baduzu, hemen ere ezabatu."
+
+#: deluge/ui/gtkui/aboutdialog.py:287
+msgid "Server:"
+msgstr "Zerbitzaria:"
+
+#: deluge/ui/gtkui/aboutdialog.py:290
+msgid "libtorrent:"
+msgstr "libtorrent:"
+
+#: deluge/ui/gtkui/statusbar.py:146
+msgid "Not Connected"
+msgstr "Elkarketatu Gabe"
+
+#: deluge/ui/gtkui/statusbar.py:163
+msgid "Connections"
+msgstr "Elkarketak"
+
+#: deluge/ui/gtkui/statusbar.py:168
+msgid "Download Speed"
+msgstr "Jeisketa Abiadura"
+
+#: deluge/ui/gtkui/statusbar.py:173
+msgid "Upload Speed"
+msgstr "Igoera Abiadura"
+
+#: deluge/ui/gtkui/statusbar.py:178
+msgid "Protocol Traffic Download/Upload"
+msgstr "Jeisketa/Igoera Protokolo Trafikoa"
+
+#: deluge/ui/gtkui/statusbar.py:181
+msgid "DHT Nodes"
+msgstr "DHT Elkarguneak"
+
+#: deluge/ui/gtkui/statusbar.py:186
+msgid "Free Disk Space"
+msgstr "Diskako Toki Askea"
+
+#: deluge/ui/gtkui/statusbar.py:190
+msgid "No Incoming Connections!"
+msgstr "Ez Dago Barrurako Elkarketarik!"
+
+#: deluge/ui/gtkui/filtertreeview.py:68
+msgid "States"
+msgstr "Egoerak"
+
+#: deluge/ui/gtkui/filtertreeview.py:70
+msgid "Labels"
+msgstr "Etiketak"
+
+#: deluge/ui/gtkui/filtertreeview.py:71
+msgid "All"
+msgstr "Denak"
+
+#: deluge/ui/gtkui/filtertreeview.py:78
+msgid "Active"
+msgstr "Eraginda"
+
+#: deluge/ui/gtkui/filtertreeview.py:79
+msgid "None"
+msgstr "Bat ere ez"
+
+#: deluge/ui/gtkui/glade/remove_torrent_dialog.glade:45
+msgid "<big><b>Remove the selected torrent?</b></big>"
+msgstr "<big><b>Kendu hautatutako torrentak?</b></big>"
+
+#: deluge/ui/gtkui/glade/remove_torrent_dialog.glade:57
+msgid "If you remove the data, it will be lost permanently."
+msgstr "Datuak kentzen badituzu, betirako galduko dira."
+
+#: deluge/ui/gtkui/glade/remove_torrent_dialog.glade:117
+msgid "Remove With _Data"
+msgstr "Kendu _Datuekin"
+
+#: deluge/ui/gtkui/glade/remove_torrent_dialog.glade:155
+msgid "Remove _Torrent"
+msgstr "Kendu _Torrenta"
+
+#: deluge/ui/gtkui/glade/edit_trackers.glade:9
+msgid "Edit Trackers"
+msgstr "Editatu Aztarnariak"
+
+#: deluge/ui/gtkui/glade/edit_trackers.glade:47
+msgid "<big><b>Edit Trackers</b></big>"
+msgstr "<big><b>Editatu Aztarnariak</b></big>"
+
+#: deluge/ui/gtkui/glade/edit_trackers.glade:224
+msgid "Add Tracker"
+msgstr "Gehitu Aztarnaria"
+
+#: deluge/ui/gtkui/glade/edit_trackers.glade:260
+msgid "<b>Add Trackers</b>"
+msgstr "<b>Editatu Aztarnariak</b>"
+
+#: deluge/ui/gtkui/glade/edit_trackers.glade:296
+#: deluge/ui/gtkui/glade/add_torrent_dialog.glade:1207
+msgid "Trackers:"
+msgstr "Aztarnariak:"
+
+#: deluge/ui/gtkui/glade/edit_trackers.glade:380
+msgid "Edit Tracker"
+msgstr "Editatu Aztarnaria"
+
+#: deluge/ui/gtkui/glade/edit_trackers.glade:416
+msgid "<b>Edit Tracker</b>"
+msgstr "<b>Editatu Aztarnaria</b>"
+
+#: deluge/ui/gtkui/glade/edit_trackers.glade:450
+msgid "Tracker:"
+msgstr "Aztarnaria:"
+
+#: deluge/ui/gtkui/glade/tray_menu.glade:12
+msgid "_Show Deluge"
+msgstr "_Erakutsi Deluge"
+
+#: deluge/ui/gtkui/glade/tray_menu.glade:26
+#: deluge/ui/gtkui/glade/main_window.glade:26
+msgid "_Add Torrent"
+msgstr "_Gehitu Torrenta"
+
+#: deluge/ui/gtkui/glade/tray_menu.glade:48
+#: deluge/ui/gtkui/glade/filtertree_menu.glade:26
+msgid "_Pause All"
+msgstr "_Pausatu Denak"
+
+#: deluge/ui/gtkui/glade/tray_menu.glade:65
+msgid "_Resume All"
+msgstr "_Kendu Denak"
+
+#: deluge/ui/gtkui/glade/tray_menu.glade:87
+#: deluge/ui/gtkui/glade/torrent_menu.glade:212
+msgid "_Download Speed Limit"
+msgstr "_Jeisketa Abiadura Muga"
+
+#: deluge/ui/gtkui/glade/tray_menu.glade:103
+#: deluge/ui/gtkui/glade/torrent_menu.glade:227
+msgid "_Upload Speed Limit"
+msgstr "_Igoera Abiadura Muga"
+
+#: deluge/ui/gtkui/glade/tray_menu.glade:124
+msgid "Quit & Shutdown Daemon"
+msgstr "Utzi eta Itzali Daemon"
+
+#: deluge/ui/gtkui/glade/filtertree_menu.glade:10
+msgid "_Select All"
+msgstr "_Hautatu Denak"
+
+#: deluge/ui/gtkui/glade/filtertree_menu.glade:41
+#: deluge/ui/gtkui/glade/torrent_menu.glade:48
+msgid "Resume selected torrents."
+msgstr "Berrekin hautatutako torrentak."
+
+#: deluge/ui/gtkui/glade/filtertree_menu.glade:42
+msgid "Resu_me All"
+msgstr "Berre_kin Denak"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:8
+#: deluge/ui/gtkui/glade/main_window.glade:439
+#: deluge/ui/gtkui/glade/main_window.glade:440
+msgid "Preferences"
+msgstr "Hobespenak"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:76
+msgid "<b><i><big>Downloads</big></i></b>"
+msgstr "<b><i><big>Jeisketak</big></i></b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:188
+msgid "Auto add .torrents from:"
+msgstr "Berez gehitu .torretak hemendik:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:254
+msgid "Download to:"
+msgstr "Jeitsi hona:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:262
+msgid "Copy of .torrent files to:"
+msgstr "Kopiatu .torrent fitxategiak hona:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:318
+msgid "Delete copy of torrent file on remove"
+msgstr "Ezabatu torrent fitxategiaren kopia ezabatzean"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:322
+msgid ""
+"Delete the copy of the torrent file created when the torrent is removed"
+msgstr ""
+"Ezabatu sortutako torrent fitxategiaren kopia torrenta ezabatzen denean"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:339
+msgid "<b>Folders</b>"
+msgstr "<b>Karpetak</b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:372
+msgid "Use Full Allocation"
+msgstr "Erabili Esleipen Osoa"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:377
+msgid ""
+"Full allocation preallocates all of the space that is needed for the torrent "
+"and prevents disk fragmentation"
+msgstr ""
+"Esleipen Osoak aurre-esleitzen du torrentarentzat beharrezkoa den toki "
+"guztia eta diska zatikapena sahiesten du"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:389
+msgid "Use Compact Allocation"
+msgstr "Erabili Esleipen Trinkoa"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:394
+msgid "Compact allocation only allocates space as needed"
+msgstr "Esleipen trinkoak beharrezkoa den tokia bakarrik esleitzen du"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:411
+#: deluge/ui/gtkui/glade/add_torrent_dialog.glade:468
+msgid "<b>Allocation</b>"
+msgstr "<b>Esleipena</b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:442
+msgid "Prioritize first and last pieces of torrent"
+msgstr "Eman lehentasuna torrentaren lehen eta azken atalari"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:447
+msgid "Prioritize first and last pieces of files in torrent"
+msgstr "Eman lehentasuna torrent fitxategiaren lehen eta azken atalei"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:457
+msgid "Add torrents in Paused state"
+msgstr "Gehitu torrentak Pausatuta egoeran"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:530
+msgid "<b><i><big>Network</big></i></b>"
+msgstr "<b><i><big>Sarea</big></i></b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:569
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:762
+msgid "Use Random Ports"
+msgstr "Erabili Zorizko Atakak"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:574
+msgid "Deluge will automatically choose a different port to use every time."
+msgstr ""
+"Delugek berezgaitasunez hautatuko du aldi bakoitzean erabiltzeko ataka "
+"ezberdin bat."
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:592
+msgid "Active Port:"
+msgstr "Eragindako Ataka:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:662
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:811
+msgid "To:"
+msgstr "Hona:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:690
+msgid "Test Active Port"
+msgstr "Aztertu Eragindako Ataka:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:732
+msgid "<b>Incoming Ports</b>"
+msgstr "<b>Barrurako Atakak</b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:849
+msgid "<b>Outgoing Ports</b>"
+msgstr "<b>Kanporako Atakak</b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:882
+msgid ""
+"Enter the IP address of the interface to listen for incoming bittorrent "
+"connections on.  Leave this empty if you want to use the default."
+msgstr ""
+"Sartu barrurako bittorrent elkarketarako aditze interfaze IP helbidea. Utzi "
+"hutsik berezkoa erabiltzea nahi baduzu."
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:903
+msgid "<b>Interface</b>"
+msgstr "<b>Interfazea</b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:938
+msgid ""
+"The TOS byte set in the IP header of every packet sent to peers (including "
+"web seeds).  Expects a Hex value."
+msgstr ""
+"TOS bytea hartzaileetara bidalitako pakete bakoitzaren IP idazburuan "
+"ezartzen da (web emaritzak barne). Itxaroten da Hex balio bat."
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:939
+msgid "Peer TOS Byte:"
+msgstr "Hartzaile TOS Byte:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:973
+msgid "<b>TOS</b>"
+msgstr "<b>TOS</b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1006
+msgid "UPnP"
+msgstr "UPnP"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1010
+msgid "Universal Plug and Play"
+msgstr "UPP"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1021
+msgid "NAT-PMP"
+msgstr "NAT-PMP"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1025
+msgid "NAT Port Mapping Protocol"
+msgstr "NAT Ataka Mapaketa Protokoloa"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1038
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1042
+msgid "Peer Exchange"
+msgstr "Hartzaile Aldaketa"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1055
+msgid "LSD"
+msgstr "LSD"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1060
+msgid "Local Service Discovery finds local peers on your network."
+msgstr ""
+"Tokiko Zerbitzari Aurkitzaileak tokiko hartzaileak bilatzen ditu zure sarean."
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1075
+msgid "Distributed hash table may improve the amount of active connections."
+msgstr "Hash taula banatuak eragindako elkarketa kopurua hobetu dezake."
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1097
+msgid "<b>Network Extras</b>"
+msgstr "<b>Sare Gehigarriak</b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1135
+msgid "Inbound:"
+msgstr "Etorrikoa:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1145
+msgid "Level:"
+msgstr "Maila:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1165
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1214
+msgid ""
+"Forced\n"
+"Enabled\n"
+"Disabled"
+msgstr ""
+"Behartuta\n"
+"Gaituta\n"
+"Ezgaituta"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1176
+msgid ""
+"Handshake\n"
+"Full Stream\n"
+"Either"
+msgstr ""
+"Eskubete\n"
+"Jario Osoa\n"
+"Edozein"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1203
+msgid "Outbound:"
+msgstr "Joanekoa:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1230
+msgid "Encrypt entire stream"
+msgstr "Enkriptatu jario osoa"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1255
+msgid "<b>Encryption</b>"
+msgstr "<b>Enkriptaketa</b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1315
+msgid "<b><i><big>Bandwidth</big></i></b>"
+msgstr "<b><i><big>Bandazabalera</big></i></b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1391
+msgid "Maximum Connection Attempts per Second:"
+msgstr "Gehienezko Elkarketa Ahalegin Segunduko:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1403
+msgid "Maximum Half-Open Connections:"
+msgstr "Gehienezko Elkarketa Erdi-Ireki:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1414
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1504
+msgid "The maximum upload speed for all torrents.  Set -1 for unlimited."
+msgstr ""
+"Gehienezko igoera abiadura torrent guztientzat. Ezarri -1 mugagaberako."
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1416
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1701
+msgid "Maximum Upload Speed (KiB/s):"
+msgstr "Gehienezko Igoera Abiadrua (KiB/s)"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1427
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1452
+msgid "The maximum number of connections allowed.  Set -1 for unlimited."
+msgstr "Gehienez ahalbidetutako elkarketa zenbateko. Ezarri -1 mugagaberako."
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1429
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1664
+msgid "Maximum Connections:"
+msgstr "Gehienezko Elkarketa:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1438
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1523
+msgid "The maximum upload slots for all torrents.  Set -1 for unlimited."
+msgstr "Gehienezko igoera ahoa torrent guztientzat. Ezarri -1 mugagaberako."
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1440
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1675
+msgid "Maximum Upload Slots:"
+msgstr "Gehienezko Igoera Aho:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1470
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1485
+msgid "The maximum download speed for all torrents.  Set -1 for unlimited."
+msgstr ""
+"Gehienezko jeisketa abiadura torrent guztientzat. Ezarri -1 mugagaberako."
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1472
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1688
+msgid "Maximum Download Speed (KiB/s):"
+msgstr "Gehienezko Jeisketa Abiadura (KiB/s)"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1549
+msgid "Ignore limits on local network"
+msgstr "Ezikusi mugak tokiko sarean"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1568
+msgid "Rate limit IP overhead"
+msgstr "Neurri muga IP burugaina"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1572
+msgid ""
+"If checked, the estimated TCP/IP overhead is drained from the rate limiters, "
+"to avoid exceeding the limits with the total traffic"
+msgstr ""
+"Hautatuta badago, estimatutako TCP/IP burugaina neurri mugatzaileek "
+"bideratzen dute, trafiko guztiarekin mugak gainditzea eragozteko"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1589
+msgid "<b>Global Bandwidth Usage</b>"
+msgstr "<b>Bandazabalera Global Erabilpena</b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1628
+msgid "The maximum upload slots per torrent.  Set -1 for unlimited."
+msgstr "Gehienezko igoera aho torrent bakoitzeko. Ezarri -1 mugagaberako."
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1647
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1713
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1731
+msgid "The maximum number of connections per torrent.  Set -1 for unlimited."
+msgstr ""
+"Gehienezko elkarketa zenbatekoa torrent bakoitzeko. Ezarri -1 mugagaberako."
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1753
+msgid "<b>Per Torrent Bandwidth Usage</b>"
+msgstr "<b>Torrent Bakoitzeko Bandazabalera Erabilpena</b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1812
+msgid "<i><b><big>Interface</big></b></i>"
+msgstr "<i><b><big>Interfazea</big></b></i>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1845
+msgid "Enable"
+msgstr "Gaitu"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1850
+msgid ""
+"Classic Mode will hide most of the daemon functionality and will make Deluge "
+"appear to be a single application.  Use this if you do not want to take "
+"advantage of running Deluge as a daemon. You need to restart Deluge for this "
+"setting to take effect."
+msgstr ""
+"Modu Klasikoak daemonen eginkizun asko ezkutatuko ditu eta Deluge aplikazio "
+"bakar bezala agertaraziko du. Erabili hau ez baduzu nahi Deluge daemon bat "
+"bezala ekinez aurreratzerik nahi. Deluge berrabiarazi behar duzu ezarpen "
+"honek eragina izateko."
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1860
+msgid "<b>Classic Mode</b>"
+msgstr "<b>Modu Klasikoa</b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1892
+msgid "Show session speed in titlebar"
+msgstr "Erakutsi saio abiadura izenburu-barran"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1910
+msgid "<b>Main Window</b>"
+msgstr "<b>Leiho Nagusia</b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1942
+msgid "Always show"
+msgstr "Betik erakutsi"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1960
+msgid "Bring the dialog to focus"
+msgstr "Eraman elkarrizketa fokura"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:1980
+msgid "<b>Add Torrents Dialog</b>"
+msgstr "<b>Gehitu Torrenten Elkarrizketa</b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2011
+msgid "Enable system tray icon"
+msgstr "Gaitu sistema erretilu ikonoa"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2029
+msgid "Minimize to tray on close"
+msgstr "Ikonotu erretilura isterakoan"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2049
+msgid "Start in tray"
+msgstr "Hasi erretiluan"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2069
+msgid "Enable Application Indicator"
+msgstr "Gaitu Aplikazio Adierazlea"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2090
+msgid "Password protect system tray"
+msgstr "Sistema erretilua sar-hitzez babestuta"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2157
+msgid "<b>System Tray</b>"
+msgstr "<b>Sistema Erretilua</b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2215
+msgid "<i><b><big>Other</big></b></i>"
+msgstr "<i><b><big>Besterik</big></b></i>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2255
+msgid "Be alerted about new releases"
+msgstr "Argitalpen berrien jakitun egon"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2260
+msgid ""
+"Deluge will check our servers and will tell you if a newer version has been "
+"released"
+msgstr ""
+"Delugek gure zerbitzariak egiaztatuko ditu eta esango dizu bertsio "
+"berriagoren bat argitaratu bada"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2279
+msgid "<b>Updates</b>"
+msgstr "<b>Eguneraketak</b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2315
+msgid ""
+"Help us improve Deluge by sending us your Python version, PyGTK version, OS "
+"and processor types.  Absolutely no other information is sent."
+msgstr ""
+"Lagundu diezaguzu Deluge hobetzen zure Python bertsioa, PyGTK bertsioa, SE "
+"edo prozesagailu motak bidaliz. Ez da beste argibiderik bidaltzen."
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2332
+msgid "Yes, please send anonymous statistics"
+msgstr "Bai, mesedez bidali izengabeko estatistikak"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2354
+msgid "<b>System Information</b>"
+msgstr "<b>Sistema Argibideak</b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2396
+msgid "Location:"
+msgstr "Kokalekua:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2409
+msgid ""
+"If Deluge cannot find the database file at this location it will fallback to "
+"using DNS to resolve the peer's country."
+msgstr ""
+"Delugek ezin badu datubase agiria bilatu kokaleku honetan DNS-a erabiliz "
+"erantzungo du hartzailearen herrialdea jakiteko."
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2433
+msgid "<b>GeoIP Database</b>"
+msgstr "<b>GeoIP Datubasea</b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2478
+msgid "Associate Magnet links with Deluge"
+msgstr "Elkartu _Magnet loturak Delugerekin"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2546
+msgid "<i><b><big>Daemon</big></b></i>"
+msgstr "<i><b><big>Daemon</big></b></i>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2589
+msgid "Daemon port:"
+msgstr "Daemon ataka:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2626
+msgid "<b>Port</b>"
+msgstr "<b>Ataka</b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2655
+msgid "Allow Remote Connections"
+msgstr "Ahalbidetu Hurruneko Elkarketak"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2669
+msgid "<b>Connections</b>"
+msgstr "<b>Elkarketak</b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2698
+msgid "Periodically check the website for new releases"
+msgstr "Aldika egiaztatu webgunean argitalpen berririk dagoen"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2712
+msgid "<b>Other</b>"
+msgstr "<b>Besteak</b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2771
+msgid "<i><b><big>Queue</big></b></i>"
+msgstr "<i><b><big>Lerrokatu</big></b></i>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2812
+msgid "Queue new torrents to top"
+msgstr "Lerrokatu torrent berriak goian"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2906
+msgid "Total active seeding:"
+msgstr "Emaritza eragindu guztira:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2919
+msgid "Total active:"
+msgstr "Eraginda guztira:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2948
+msgid "Total active downloading:"
+msgstr "Jeisketa eraginda guztira:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2963
+msgid "Do not count slow torrents"
+msgstr "Ez zenbatu torrent motelak"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:2981
+msgid "<b>Active Torrents</b>"
+msgstr "<b>Eragindako Torrentak</b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3022
+msgid "Share Ratio Limit:"
+msgstr "Elkarbanatze Maila Muga:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3032
+msgid "Seed Time Ratio:"
+msgstr "Emaritza Denbora Maila:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3044
+msgid "Seed Time (m):"
+msgstr "Emaritza Denbora (m):"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3112
+msgid "Stop seeding when share ratio reaches:"
+msgstr "Gelditu emaritza elkarbanatze maila erdietsitakoan:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3157
+msgid "Remove torrent when share ratio reached"
+msgstr "Kendu torrenta elkarbanatze maila erdietsitakoan"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3179
+msgid "<b>Seeding</b>"
+msgstr "<b>Emaritzan</b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3243
+msgid "<i><b><big>Proxy</big></b></i>"
+msgstr "<i><b><big>Proxya</big></b></i>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3314
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3501
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3688
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3876
+msgid "Host:"
+msgstr "Hostalaria:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3390
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3577
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3764
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3954
+msgid ""
+"None\n"
+"Socksv4\n"
+"Socksv5\n"
+"Socksv5 W/ Auth\n"
+"HTTP\n"
+"HTTP W/ Auth"
+msgstr ""
+"Bat ere ez\n"
+"Socksv4\n"
+"Socksv5\n"
+"Socksv5 W/ Auth\n"
+"HTTP\n"
+"HTTP W/ Auth"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3437
+msgid "<b>Peer</b>"
+msgstr "<b>Hartzailea</b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3624
+msgid "<b>Web Seed</b>"
+msgstr "<b>Web Emaritza</b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:3811
+msgid "<b>Tracker</b>"
+msgstr "<b>Aztarnaria</b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4002
+msgid "<b>DHT</b>"
+msgstr "<b>DHT</b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4058
+msgid "<b><i><big>Cache</big></i></b>"
+msgstr "<b><i><big>Katxea</big></i></b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4102
+msgid "Cache Size (16 KiB blocks):"
+msgstr "Katxe Neurria (16 KiB bloke)"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4112
+msgid ""
+"The number of seconds from the last cached write to a piece in the write "
+"cache, to when it's forcefully flushed to disk. Default is 60 seconds."
+msgstr ""
+"Idaz katxean atal baten azken idaz katxetik segundu zenbatekoa, diskara "
+"behartuta jariotzen denean. Berezkoa 60 segundu da."
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4114
+msgid "Cache Expiry (seconds):"
+msgstr "Katxe Epea (segundu):"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4209
+msgid ""
+"The total number of 16 KiB blocks written to disk since this session was "
+"started."
+msgstr ""
+"Saio hau hasi denetik diskan idatzi diren 16 KiB-ko bloke zenbatekoa guztira."
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4211
+msgid "Blocks Written:"
+msgstr "Bloke Idatzita:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4220
+msgid ""
+"The total number of write operations performed since this session was "
+"started."
+msgstr "Saio hau hasi denetik egin diren idaz eragiketa zenbatekoa guztira."
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4222
+msgid "Writes:"
+msgstr "Idazleak:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4233
+msgid ""
+"The ratio (blocks_written - writes) / blocks_written represents the number "
+"of saved write operations per total write operations, i.e. a kind of cache "
+"hit ratio for the write cache."
+msgstr ""
+"(blocks_written - writes) / blocks_written mailak adierazten du idaz "
+"eragiketa guztietatik gordetako idaz eragiketa zenbatekoa, idaz katxerako "
+"katxe kolpe maila."
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4235
+msgid "Write Cache Hit Ratio:"
+msgstr "Idaz Katxe Kolpe Maila:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4287
+msgid "<b>Write</b>"
+msgstr "<b>Idatzi</b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4317
+msgid ""
+"The number of blocks that were requested from the bittorrent engine (from "
+"peers), that were served from disk or cache."
+msgstr ""
+"Bittorrrent gailutik (hartzaileengandik) eskabidetuak izan ziren bloke "
+"zenbatekoa, diskatik edo katxetik zerbitzatu zirenak."
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4319
+msgid "Blocks Read:"
+msgstr "Bloke Irakurrita:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4328
+msgid "The number of blocks that were served from cache."
+msgstr "Katxetik zerbitzatzen den bloke zenbatekoa."
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4330
+msgid "Blocks Read Hit:"
+msgstr "Bloke Irakurketa Kolpea:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4341
+msgid "The cache hit ratio for the read cache."
+msgstr "Katxe kolpe maila irakur katzerako."
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4343
+msgid "Read Cache Hit Ratio:"
+msgstr "Irakur Katxe Kolpe Maila:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4392
+msgid ""
+"The total number of read operations performed since this session was started."
+msgstr ""
+"Saio hau hasi denetik eginiko irakurketa eragiteka zenbatekoa guztira."
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4394
+msgid "Reads:"
+msgstr "Irakurriak:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4421
+msgid "<b>Read</b>"
+msgstr "<b>Irakurri</b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4451
+msgid ""
+"The number of 16 KiB blocks currently in the disk cache. This includes both "
+"read and write cache."
+msgstr ""
+"Orain diskako katxean dagoen 16 KiB-eko bloke zenbatekoa. Honek irakur eta "
+"idaz katxeak barnebiltzen ditu."
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4453
+msgid "Cache Size:"
+msgstr "Katxe Neurria:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4463
+msgid "Read Cache Size:"
+msgstr "Irakur Katxe Neurria:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4502
+msgid "<b>Size</b>"
+msgstr "<b>Neurria</b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4545
+msgid "<b>Status</b>"
+msgstr "<b>Egoera</b>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4606
+msgid "<i><b><big>Plugins</big></b></i>"
+msgstr "<i><b><big>Pluginak</big></b></i>"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4730
+msgid "Version:"
+msgstr "Bertisoa:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4743
+#: deluge/ui/gtkui/glade/create_torrent_dialog.glade:264
+msgid "Author:"
+msgstr "Egilea:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4754
+msgid "Homepage:"
+msgstr "Etxea:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4767
+msgid "Author Email:"
+msgstr "Egile Post@:"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4859
+msgid "_Install Plugin"
+msgstr "_Ezarri Plugina"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4902
+msgid "_Rescan Plugins"
+msgstr "_Bermihatu Pluginak"
+
+#: deluge/ui/gtkui/glade/preferences_dialog.glade:4955
+msgid "_Find More Plugins"
+msgstr "Bilatu _Plugin Gehiago"
+
+#: deluge/ui/gtkui/glade/queuedtorrents.glade:8
+msgid "Queued Torrents"
+msgstr "Lerrokatu Torrentak"
+
+#: deluge/ui/gtkui/glade/queuedtorrents.glade:47
+msgid "<big><b>Add Queued Torrents</b></big>"
+msgstr "<big><b>Gehitu Lerrokatutako Torrentak</b></big>"
+
+#: deluge/ui/gtkui/glade/queuedtorrents.glade:127
+msgid "Automatically add torrents on connect"
+msgstr "Berezgaitasuenez gehitu torrentak elkarketatzerakoan"
+
+#: deluge/ui/gtkui/glade/create_torrent_dialog.glade:7
+msgid "Create Torrent"
+msgstr "Sortu Torrenta"
+
+#: deluge/ui/gtkui/glade/create_torrent_dialog.glade:34
+msgid "<big><b>Create Torrent</b></big>"
+msgstr "<big><b>Sortu Torrenta</b></big>"
+
+#: deluge/ui/gtkui/glade/create_torrent_dialog.glade:123
+#: deluge/ui/gtkui/glade/main_window.glade:20
+#: deluge/ui/gtkui/glade/add_torrent_dialog.glade:96
+msgid "_File"
+msgstr "_Fitxategia"
+
+#: deluge/ui/gtkui/glade/create_torrent_dialog.glade:160
+msgid "Fol_der"
+msgstr "_Karpeta"
+
+#: deluge/ui/gtkui/glade/create_torrent_dialog.glade:200
+msgid "_Remote Path"
+msgstr "_Hurruneko Helburua"
+
+#: deluge/ui/gtkui/glade/create_torrent_dialog.glade:230
+msgid "<b>Files</b>"
+msgstr "<b>Fitxategiak</b>"
+
+#: deluge/ui/gtkui/glade/create_torrent_dialog.glade:294
+msgid "Comments:"
+msgstr "Aipamenak:"
+
+#: deluge/ui/gtkui/glade/create_torrent_dialog.glade:333
+msgid "Info"
+msgstr "Argibideak"
+
+#: deluge/ui/gtkui/glade/create_torrent_dialog.glade:514
+msgid "Webseeds"
+msgstr "Web-emaritzak"
+
+#: deluge/ui/gtkui/glade/create_torrent_dialog.glade:544
+msgid "Piece Size:"
+msgstr "Atal Neurria:"
+
+#: deluge/ui/gtkui/glade/create_torrent_dialog.glade:554
+msgid ""
+"32 KiB\n"
+"64 KiB\n"
+"128 KiB\n"
+"256 KiB\n"
+"512 KiB\n"
+"1 MiB\n"
+"2 MiB\n"
+"4 MiB\n"
+"8 MiB\n"
+"16 MiB\n"
+msgstr ""
+"32 KiB\n"
+"64 KiB\n"
+"128 KiB\n"
+"256 KiB\n"
+"512 KiB\n"
+"1 MiB\n"
+"2 MiB\n"
+"4 MiB\n"
+"8 MiB\n"
+"16 MiB\n"
+
+#: deluge/ui/gtkui/glade/create_torrent_dialog.glade:582
+msgid "Set Private Flag"
+msgstr "Ezarri Ikur Pribatua"
+
+#: deluge/ui/gtkui/glade/create_torrent_dialog.glade:596
+msgid "Add this torrent to the session"
+msgstr "Gehitu torrent hau saiora"
+
+#: deluge/ui/gtkui/glade/create_torrent_dialog.glade:694
+msgid "Enter Remote Path"
+msgstr "Sartu Hurruneko Helburua"
+
+#: deluge/ui/gtkui/glade/create_torrent_dialog.glade:730
+msgid "<b>Remote Path</b>"
+msgstr "<b>Hurruneko Helburua</b>"
+
+#: deluge/ui/gtkui/glade/create_torrent_dialog.glade:764
+#: deluge/ui/gtkui/glade/create_torrent_dialog.glade:947
+msgid "Path:"
+msgstr "Helburua:"
+
+#: deluge/ui/gtkui/glade/create_torrent_dialog.glade:840
+msgid "Creating Torrent"
+msgstr "Torrenta Sortzen"
+
+#: deluge/ui/gtkui/glade/create_torrent_dialog.glade:877
+msgid "Save .torrent as"
+msgstr "Gorde .torrentak honela"
+
+#: deluge/ui/gtkui/glade/create_torrent_dialog.glade:913
+msgid "<b>Save .torrent file</b>"
+msgstr "<b>Gorde .torrent fitxategia</b>"
+
+#: deluge/ui/gtkui/glade/connection_manager.glade:8
+msgid "Add Host"
+msgstr "Gehitu Hostalaria"
+
+#: deluge/ui/gtkui/glade/connection_manager.glade:207
+#: deluge/ui/gtkui/glade/main_window.glade:454
+#: deluge/ui/gtkui/glade/main_window.glade:455
+msgid "Connection Manager"
+msgstr "Elkarketa Kudeatzailea"
+
+#: deluge/ui/gtkui/glade/connection_manager.glade:240
+msgid "<big><b>Connection Manager</b></big>"
+msgstr "<big><b>Elkarketa Kudeatzailea</b></big>"
+
+#: deluge/ui/gtkui/glade/connection_manager.glade:366
+msgid "_Start local daemon"
+msgstr "_Abiarazi tokiko daemon"
+
+#: deluge/ui/gtkui/glade/connection_manager.glade:418
+msgid "Automatically connect to selected host on start-up"
+msgstr "Berezgaitasunez elkarketatu hautatutako hostalarira hasterakoan"
+
+#: deluge/ui/gtkui/glade/connection_manager.glade:429
+msgid "Automatically start localhost if needed"
+msgstr "Berezgaitasunez hais tokiko-hostalaria beharrezkoa bada"
+
+#: deluge/ui/gtkui/glade/connection_manager.glade:443
+msgid "Do not show this dialog on start-up"
+msgstr "Ez erakutsi elkarrizketa hau hasterakoan"
+
+#: deluge/ui/gtkui/glade/main_window.glade:44
+msgid "_Create Torrent"
+msgstr "_Sortu Torrenta"
+
+#: deluge/ui/gtkui/glade/main_window.glade:64
+msgid "Quit & _Shutdown Daemon"
+msgstr "Utzi eta _Itzali Daemon"
+
+#: deluge/ui/gtkui/glade/main_window.glade:100
+msgid "_Edit"
+msgstr "_Editatu"
+
+#: deluge/ui/gtkui/glade/main_window.glade:117
+msgid "_Connection Manager"
+msgstr "Elkarketa _Kudeatzailea"
+
+#: deluge/ui/gtkui/glade/main_window.glade:139
+msgid "_Torrent"
+msgstr "_Torrenta"
+
+#: deluge/ui/gtkui/glade/main_window.glade:146
+msgid "_View"
+msgstr "_Ikusi"
+
+#: deluge/ui/gtkui/glade/main_window.glade:154
+msgid "_Toolbar"
+msgstr "_Tresnabarra"
+
+#: deluge/ui/gtkui/glade/main_window.glade:164
+msgid "_Sidebar"
+msgstr "_Albobarra"
+
+#: deluge/ui/gtkui/glade/main_window.glade:173
+msgid "Status_bar"
+msgstr "Egoera_barra"
+
+#: deluge/ui/gtkui/glade/main_window.glade:187
+msgid "T_abs"
+msgstr "H_egatsak"
+
+#: deluge/ui/gtkui/glade/main_window.glade:194
+msgid "_Columns"
+msgstr "_Zutabeak"
+
+#: deluge/ui/gtkui/glade/main_window.glade:202
+msgid "S_idebar"
+msgstr "A_lbobarra"
+
+#: deluge/ui/gtkui/glade/main_window.glade:211
+msgid "Show _Zero Hits"
+msgstr "Erakutsi _Zero Kolpeak"
+
+#: deluge/ui/gtkui/glade/main_window.glade:220
+msgid "Show _Trackers"
+msgstr "Erakutsi _Aztarnariak"
+
+#: deluge/ui/gtkui/glade/main_window.glade:237
+msgid "_Help"
+msgstr "_Laguntza"
+
+#: deluge/ui/gtkui/glade/main_window.glade:243
+msgid "_Homepage"
+msgstr "_Webgunea"
+
+#: deluge/ui/gtkui/glade/main_window.glade:260
+msgid "_FAQ"
+msgstr "SEG"
+
+#: deluge/ui/gtkui/glade/main_window.glade:263
+msgid "Frequently Asked Questions"
+msgstr "Sarri Egiten diren Galderak"
+
+#: deluge/ui/gtkui/glade/main_window.glade:279
+msgid "_Community"
+msgstr "H_erkidegoa"
+
+#: deluge/ui/gtkui/glade/main_window.glade:326
+msgid "Add torrent"
+msgstr "Gehitu torrenta"
+
+#: deluge/ui/gtkui/glade/main_window.glade:327
+msgid "Add Torrent"
+msgstr "Gehitu Torrenta"
+
+#: deluge/ui/gtkui/glade/main_window.glade:341
+msgid "Remove torrent"
+msgstr "Kendu torrenta"
+
+#: deluge/ui/gtkui/glade/main_window.glade:342
+msgid "Remove Torrent"
+msgstr "Kendu Torrenta"
+
+#: deluge/ui/gtkui/glade/main_window.glade:363
+msgid "Pause the selected torrents"
+msgstr "Pausatu hautatutako torrentak"
+
+#: deluge/ui/gtkui/glade/main_window.glade:364
+msgid "Pause"
+msgstr "Pausatu"
+
+#: deluge/ui/gtkui/glade/main_window.glade:379
+msgid "Resume the selected torrents"
+msgstr "Kendu hatututako torrentak"
+
+#: deluge/ui/gtkui/glade/main_window.glade:380
+msgid "Resume"
+msgstr "Kendu"
+
+#: deluge/ui/gtkui/glade/main_window.glade:402
+msgid "Queue Torrent Up"
+msgstr "Lerrokatu Torrenta Goian"
+
+#: deluge/ui/gtkui/glade/main_window.glade:403
+msgid "Queue Up"
+msgstr "Lerroan Gora"
+
+#: deluge/ui/gtkui/glade/main_window.glade:417
+msgid "Queue Torrent Down"
+msgstr "Lerrokatu Torrenta Behean"
+
+#: deluge/ui/gtkui/glade/main_window.glade:418
+msgid "Queue Down"
+msgstr "Lerroan Behera"
+
+#: deluge/ui/gtkui/glade/main_window.glade:568
+msgid "_Expand All"
+msgstr "_Zabaldu Denak"
+
+#: deluge/ui/gtkui/glade/main_window.glade:589
+msgid "_Do Not Download"
+msgstr "Ez _Jeitsi"
+
+#: deluge/ui/gtkui/glade/main_window.glade:605
+msgid "_Normal Priority"
+msgstr "_Lehentasun Arrunta"
+
+#: deluge/ui/gtkui/glade/main_window.glade:621
+msgid "_High Priority"
+msgstr "L_ehentasun Handia"
+
+#: deluge/ui/gtkui/glade/main_window.glade:637
+msgid "Hi_ghest Priority"
+msgstr "Le_hentasun Handiena"
+
+#: deluge/ui/gtkui/glade/main_window.glade:718
+msgid "<b>Auto Managed:</b>"
+msgstr "<b>Berez Kudeaketa:</b>"
+
+#: deluge/ui/gtkui/glade/main_window.glade:759
+msgid "<b>Seed Rank:</b>"
+msgstr "<b>Emaritza Maila:</b>"
+
+#: deluge/ui/gtkui/glade/main_window.glade:774
+msgid "<b>Seeding Time:</b>"
+msgstr "<b>Emaritza Denbora:</b>"
+
+#: deluge/ui/gtkui/glade/main_window.glade:800
+msgid "<b>Active Time:</b>"
+msgstr "<b>Denbora Eraginda:</b>"
+
+#: deluge/ui/gtkui/glade/main_window.glade:857
+msgid "<b>Tracker Status:</b>"
+msgstr "<b>Aztarnari Egoera:</b>"
+
+#: deluge/ui/gtkui/glade/main_window.glade:887
+msgid "<b>Availability:</b>"
+msgstr "<b>Eskuragarritasuna:</b>"
+
+#: deluge/ui/gtkui/glade/main_window.glade:941
+msgid "<b>Peers:</b>"
+msgstr "<b>Hartzaileak:</b>"
+
+#: deluge/ui/gtkui/glade/main_window.glade:967
+msgid "<b>Seeders:</b>"
+msgstr "<b>Emaleak:</b>"
+
+#: deluge/ui/gtkui/glade/main_window.glade:985
+msgid "<b>Pieces:</b>"
+msgstr "<b>Atalak:</b>"
+
+#: deluge/ui/gtkui/glade/main_window.glade:1007
+msgid "<b>ETA:</b>"
+msgstr "<b>UED:</b>"
+
+#: deluge/ui/gtkui/glade/main_window.glade:1029
+msgid "<b>Up Speed:</b>"
+msgstr "<b>Igoera Abiadura:</b>"
+
+#: deluge/ui/gtkui/glade/main_window.glade:1051
+msgid "<b>Down Speed:</b>"
+msgstr "<b>Jeisketa Abiadura:</b>"
+
+#: deluge/ui/gtkui/glade/main_window.glade:1070
+msgid "<b>Next Announce:</b>"
+msgstr "<b>Hurrengo Iragarpena:</b>"
+
+#: deluge/ui/gtkui/glade/main_window.glade:1089
+msgid "<b>Share Ratio:</b>"
+msgstr "<b>Elkarbanatze Maila:</b>"
+
+#: deluge/ui/gtkui/glade/main_window.glade:1108
+msgid "<b>Uploaded:</b>"
+msgstr "<b>Igota:</b>"
+
+#: deluge/ui/gtkui/glade/main_window.glade:1127
+msgid "<b>Downloaded:</b>"
+msgstr "<b>Jeitsita:</b>"
+
+#: deluge/ui/gtkui/glade/main_window.glade:1188
+msgid "<b>Date Added:</b>"
+msgstr "<b>Gehitze Eguna:</b>"
+
+#: deluge/ui/gtkui/glade/main_window.glade:1246
+msgid "_Status"
+msgstr "E_goera"
+
+#: deluge/ui/gtkui/glade/main_window.glade:1307
+msgid "<b>Comments:</b>"
+msgstr "<b>Aipamenak:</b>"
+
+#: deluge/ui/gtkui/glade/main_window.glade:1336
+msgid "<b># of files:</b>"
+msgstr "<b>Fitxategi-kopurua:</b>"
+
+#: deluge/ui/gtkui/glade/main_window.glade:1368
+msgid "<b>Hash:</b>"
+msgstr "<b>Hasha:</b>"
+
+#: deluge/ui/gtkui/glade/main_window.glade:1398
+msgid "<b>Tracker:</b>"
+msgstr "<b>Aztarnaria:</b>"
+
+#: deluge/ui/gtkui/glade/main_window.glade:1418
+msgid "<b>Total Size:</b>"
+msgstr "<b>Neurria Guztira:</b>"
+
+#: deluge/ui/gtkui/glade/main_window.glade:1456
+msgid "<b>Name:</b>"
+msgstr "<b>Izena:</b>"
+
+#: deluge/ui/gtkui/glade/main_window.glade:1476
+msgid "<b>Path:</b>"
+msgstr "<b>Helburua:</b>"
+
+#: deluge/ui/gtkui/glade/main_window.glade:1510
+msgid "<b>Status:</b>"
+msgstr "<b>Egoera:</b>"
+
+#: deluge/ui/gtkui/glade/main_window.glade:1591
+msgid "_Details"
+msgstr "_Xehetasunak"
+
+#: deluge/ui/gtkui/glade/main_window.glade:1643
+msgid "_Files"
+msgstr "_Fitxategiak"
+
+#: deluge/ui/gtkui/glade/main_window.glade:1695
+msgid "_Peers"
+msgstr "_Hartzaileak"
+
+#: deluge/ui/gtkui/glade/main_window.glade:2004
+msgid "Move completed:"
+msgstr "Mugitzea osatuta"
+
+#: deluge/ui/gtkui/glade/main_window.glade:2099
+msgid "Private"
+msgstr "Pribatua"
+
+#: deluge/ui/gtkui/glade/main_window.glade:2114
+msgid "Prioritize First/Last"
+msgstr "Lehentasuna Lehen/Azken Atalak"
+
+#: deluge/ui/gtkui/glade/main_window.glade:2152
+#: deluge/ui/gtkui/glade/torrent_menu.glade:130
+msgid "_Edit Trackers"
+msgstr "Editatu A_ztarnariak"
+
+#: deluge/ui/gtkui/glade/main_window.glade:2259
+#: deluge/ui/gtkui/glade/add_torrent_dialog.glade:862
+msgid "_Options"
+msgstr "A_ukerak"
+
+#: deluge/ui/gtkui/glade/main_window.glade:2279
+msgid "Remove Torrent?"
+msgstr "Kendu Torrenta?"
+
+#: deluge/ui/gtkui/glade/main_window.glade:2316
+msgid ""
+"<big><b>Are you sure you want to remove the selected torrent?</b></big>"
+msgstr ""
+"<big><b>Zihur zaude hautatutako torrentak kentzea nahi dituzula?</b></big>"
+
+#: deluge/ui/gtkui/glade/main_window.glade:2368
+msgid "<i>The associated .torrent will be deleted!</i>"
+msgstr "<i>Elkarturiko .torrentak ezabatu egingo dira!</i>"
+
+#: deluge/ui/gtkui/glade/main_window.glade:2408
+msgid "<i>The downloaded data will be deleted!</i>"
+msgstr "<i>Jeitsitako datutak ezabatu egingo dira</i>"
+
+#: deluge/ui/gtkui/glade/main_window.glade:2452
+msgid "Remove Selected Torrent"
+msgstr "Kendu Hautatutako Torrentak"
+
+#: deluge/ui/gtkui/glade/main_window.glade:2476
+msgid "New Release"
+msgstr "Argitalpen Berria"
+
+#: deluge/ui/gtkui/glade/main_window.glade:2508
+msgid "<b><big>New Release Available!</big></b>"
+msgstr "<b><big>Argitalpen Berria Eskuragarri!</big></b>"
+
+#: deluge/ui/gtkui/glade/main_window.glade:2560
+msgid "<i>Available Version:</i>"
+msgstr "<i>Bertsio Eskuragarria:</i>"
+
+#: deluge/ui/gtkui/glade/main_window.glade:2583
+msgid "<i>Current Version:</i>"
+msgstr "<i>Oraingo Bertsioa:</i>"
+
+#: deluge/ui/gtkui/glade/main_window.glade:2594
+msgid "<i>Server Version</i>"
+msgstr "<i>Zerbitzari Bertsioa</i>"
+
+#: deluge/ui/gtkui/glade/main_window.glade:2627
+msgid "Do not show this dialog in the future"
+msgstr "Ez erakutsi elkarrizketa hau aurrerantzean"
+
+#: deluge/ui/gtkui/glade/main_window.glade:2666
+msgid "_Goto Website"
+msgstr "_Joan Webgunera"
+
+#: deluge/ui/gtkui/glade/main_window.glade:2694
+msgid "_Add Peer"
+msgstr "Gehitu Hartzailea"
+
+#: deluge/ui/gtkui/glade/main_window.glade:2696
+msgid "Add a peer by its IP"
+msgstr "Gehitu hartzaile bat IP honetatik"
+
+#: deluge/ui/gtkui/glade/torrent_menu.glade:11
+msgid "_Open Folder"
+msgstr "_Ireki karpeta"
+
+#: deluge/ui/gtkui/glade/torrent_menu.glade:33
+msgid "_Pause"
+msgstr "_Pausatu"
+
+#: deluge/ui/gtkui/glade/torrent_menu.glade:49
+msgid "Resu_me"
+msgstr "Ken_du"
+
+#: deluge/ui/gtkui/glade/torrent_menu.glade:71
+msgid "Opt_ions"
+msgstr "Au_kerak"
+
+#: deluge/ui/gtkui/glade/torrent_menu.glade:93
+msgid "_Queue"
+msgstr "_Lerrokatu"
+
+#: deluge/ui/gtkui/glade/torrent_menu.glade:113
+msgid "_Update Tracker"
+msgstr "_Eguneratu Aztarnaria"
+
+#: deluge/ui/gtkui/glade/torrent_menu.glade:152
+msgid "_Remove Torrent"
+msgstr "_Kendu Torrenta"
+
+#: deluge/ui/gtkui/glade/torrent_menu.glade:174
+msgid "_Force Re-check"
+msgstr "_Behartu Berregiaztapena"
+
+#: deluge/ui/gtkui/glade/torrent_menu.glade:191
+msgid "Move _Storage"
+msgstr "_Mugitu Biltegira"
+
+#: deluge/ui/gtkui/glade/torrent_menu.glade:242
+msgid "_Connection Limit"
+msgstr "_Elkarketa Muga"
+
+#: deluge/ui/gtkui/glade/torrent_menu.glade:258
+msgid "Upload _Slot Limit"
+msgstr "Igoera _Aho Muga"
+
+#: deluge/ui/gtkui/glade/torrent_menu.glade:273
+msgid "_Auto Managed"
+msgstr "_Berez Kudeaketa"
+
+#: deluge/ui/gtkui/glade/move_storage_dialog.glade:9
+msgid "Move Storage"
+msgstr "Mugitu Biltegia"
+
+#: deluge/ui/gtkui/glade/move_storage_dialog.glade:44
+msgid "<b>Move Storage</b>"
+msgstr "<b>Mugitu Biltegia</b>"
+
+#: deluge/ui/gtkui/glade/move_storage_dialog.glade:78
+msgid "Destination:"
+msgstr "Helmuga:"
+
+#: deluge/ui/gtkui/glade/add_torrent_dialog.glade:8
+msgid "Add Torrents"
+msgstr "Gehitu Torrentak"
+
+#: deluge/ui/gtkui/glade/add_torrent_dialog.glade:144
+msgid "_URL"
+msgstr "UR_L-a"
+
+#: deluge/ui/gtkui/glade/add_torrent_dialog.glade:192
+msgid "Info_hash"
+msgstr "Info_hasha"
+
+#: deluge/ui/gtkui/glade/add_torrent_dialog.glade:238
+msgid "_Remove"
+msgstr "_Kendu"
+
+#: deluge/ui/gtkui/glade/add_torrent_dialog.glade:271
+msgid "<b>Torrents</b>"
+msgstr "<b>Torrentak</b>"
+
+#: deluge/ui/gtkui/glade/add_torrent_dialog.glade:328
+msgid "Fi_les"
+msgstr "Agi_riak"
+
+#: deluge/ui/gtkui/glade/add_torrent_dialog.glade:430
+msgid "Full"
+msgstr "Osoa"
+
+#: deluge/ui/gtkui/glade/add_torrent_dialog.glade:446
+msgid "Compact"
+msgstr "Trinkoa"
+
+#: deluge/ui/gtkui/glade/add_torrent_dialog.glade:521
+msgid "Max Down Speed:"
+msgstr "Geh Jeisketa Abiadura:"
+
+#: deluge/ui/gtkui/glade/add_torrent_dialog.glade:533
+msgid "Max Up Speed:"
+msgstr "Geh Igoera Abiadura:"
+
+#: deluge/ui/gtkui/glade/add_torrent_dialog.glade:663
+msgid "Add In _Paused State"
+msgstr "Gehitu _Pausatuta Egoeran"
+
+#: deluge/ui/gtkui/glade/add_torrent_dialog.glade:679
+msgid "Prioritize First/Last Pieces"
+msgstr "Lehentasuna Lehen/Azken Atalak"
+
+#: deluge/ui/gtkui/glade/add_torrent_dialog.glade:757
+msgid "Revert To Defaults"
+msgstr "Itzuli Berezkoetara"
+
+#: deluge/ui/gtkui/glade/add_torrent_dialog.glade:811
+msgid "Apply To All"
+msgstr "Ezarri Denei"
+
+#: deluge/ui/gtkui/glade/add_torrent_dialog.glade:939
+msgid "Add URL"
+msgstr "Gehitu URL-a"
+
+#: deluge/ui/gtkui/glade/add_torrent_dialog.glade:976
+msgid "<b>From URL</b>"
+msgstr "<b>URL-tik</b>"
+
+#: deluge/ui/gtkui/glade/add_torrent_dialog.glade:1098
+msgid "Add Infohash"
+msgstr "Gehitu Infohasha"
+
+#: deluge/ui/gtkui/glade/add_torrent_dialog.glade:1135
+msgid "<b>From Infohash</b>"
+msgstr "<b>Infohash-etik</b>"
+
+#: deluge/ui/gtkui/glade/add_torrent_dialog.glade:1170
+msgid "Infohash:"
+msgstr "Infohasha"
+
+#: deluge/ui/gtkui/glade/dgtkpopups.glade:98
+msgid "label"
+msgstr "etiketa"
+
+#: deluge/ui/gtkui/glade/dgtkpopups.glade:154
+msgid "Add Peer"
+msgstr "Gehitu Hartzailea"
+
+#: deluge/ui/gtkui/glade/dgtkpopups.glade:187
+msgid "<b>Add Peer</b>"
+msgstr "<b>Gehitu Hartzailea</b>"
+
+#: deluge/ui/gtkui/glade/dgtkpopups.glade:212
+msgid "hostname:port"
+msgstr "hostalari-izen:ataka"
+
+#: deluge/data/share/applications/deluge.desktop.in.h:1
+msgid "BitTorrent Client"
+msgstr "BitTorrent Bezeroa"
+
+#: deluge/data/share/applications/deluge.desktop.in.h:3
+msgid "Deluge BitTorrent Client"
+msgstr "Deluge BitTorrent Bezeroa"
+
+#: deluge/data/share/applications/deluge.desktop.in.h:4
+msgid "Download and share files over BitTorrent"
+msgstr "Deskargatu eta partekatu fitxategiak BitTorrent bidez"
+
+#~ msgid "Down:"
+#~ msgstr "Behera"
+
+#~ msgid "Up:"
+#~ msgstr "Gora"
